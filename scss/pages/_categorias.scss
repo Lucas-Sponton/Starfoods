@@ -4,8 +4,8 @@
     .mainCategorias__div--estilo {
         margin-bottom: 5rem;
         .mainCategorias__bienvenida {
-            color: #231123;
-            font-size: 2.5rem;
+            color: map-get($colores, morado);
+            font-size: $tamañoFuente+1;
             text-align: center;
             margin: 2rem 12rem 1rem 3rem;
         }
@@ -13,7 +13,7 @@
 
     div {
         .mainCategorias__boton--estilo {
-            background-color: #231123;
+            background-color: map-get($colores, morado);
             border-color: black;
             border-radius: 3rem;
             width: 80%;
@@ -21,20 +21,20 @@
             margin: 2rem 0rem 3rem 3rem;
 
             ul {
-                display: flex;
+                display: map-get($flexbox, display);
                 justify-content: space-evenly;
                 margin-bottom: 0rem;
                 li {
-                    list-style: none;
+                    list-style: map-get($listasLinks, liEstilo);
                     .mainCategorias__botonA--estilo {
                         text-decoration: none;
-                        font-size: 1.5rem;
-                        color: #ffcab1;
+                        font-size: $tamañoFuente;
+                        color: map-get($colores, rosado);
                     }
                 }
                 .mainCategorias__botonP--estilo {
-                    color: #ffcab1;
-                    font-size: 1.5rem;
+                    color: map-get($colores, rosado);
+                    font-size: $tamañoFuente;
                 }
             }
         }
@@ -42,18 +42,18 @@
     div {
         ul {
             li {
-                list-style: none;
+                list-style: map-get($listasLinks, liEstilo);
                 div {
                     .mainCategorias__divBoton--estilo {
-                        background-color: #231123;
+                        background-color: map-get($colores, morado);
                         border-color: black;
                         border-radius: 3rem;
                         width: 70%;
                         padding: 1rem;
                         margin: 2rem 0rem 3rem 6.1rem;
                         .mainCategorias__divBotonA--estilo {
-                            text-decoration: none;
-                            font-size: 1.5rem;
+                            text-decoration: map-get($listasLinks, decoracion);
+                            font-size: $tamañoFuente;
                             color: white;
                         }
                         .mainCategorias__flecha--estilo {
@@ -82,8 +82,8 @@
                     .mainCategorias__divCardTexto--estilos {
                         color: white;
                         .mainCategorias__divCardH2--estilos {
-                            display: flex;
-                            justify-content: center;
+                            display: map-get($flexbox, display);
+                            justify-content: map-get($flexbox, justify);
                         }
                         .mainCategorias__cardP--estilos {
                             margin-left: 1.5rem;

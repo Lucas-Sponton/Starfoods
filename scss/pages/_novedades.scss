@@ -5,16 +5,16 @@
         margin-bottom: 5rem;
 
         .main__bienvenida {
-            color: #231123;
-            font-size: 2.5rem;
-            font-family: Arial, Helvetica, sans-serif;
+            color: map-get($colores, morado);
+            font-size: $tamañoFuente+1;
+            font-family: $tipografiaPrincipal;
             text-align: center;
             margin: 1rem 12rem 1rem 3rem;
         }
     }
 
     .mainNovedades__divBoton--estilo {
-        background-color: #231123;
+        background-color: map-get($colores, morado);
         border-color: black;
         border-radius: 3rem;
         width: 80%;
@@ -28,22 +28,22 @@
 
             li {
                 margin: 0rem 4rem 0rem 4rem;
-                list-style: none;
+                list-style: map-get($listasLinks, liEstilo);
 
                 .mainNovedades__boton--estilo {
-                    background-color: #231123;
+                    background-color: map-get($colores, morado);
 
                     .mainNovedades__botonA--estilo {
-                        text-decoration: none;
-                        font-size: 1.5rem;
-                        color: #FFCAB1;
+                        text-decoration: map-get($listasLinks, decoracion);
+                        font-size: $tamañoFuente;
+                        color: map-get($colores, rosado);
                     }
                 }
             }
 
             .mainNovedades__botonP--estilo {
-                color: #ffcab1;
-                font-size: 1.5rem;
+                color: map-get($colores, rosado);
+                font-size: $tamañoFuente;
             }
         }
     }
@@ -51,10 +51,10 @@
     .mainNovedades__section {
         ul {
             li {
-                list-style: none;
+                list-style: map-get($listasLinks, liEstilo);
 
                 .main__botonNovedades--estilo {
-                    background-color: #231123;
+                    background-color: map-get($colores, morado);
                     border-color: black;
                     border-radius: 3rem;
                     width: 83%;
@@ -62,9 +62,9 @@
                     margin: 2rem 0rem 3rem 1rem;
 
                     .main__botonA--estilo {
-                        text-decoration: none;
-                        font-size: 1.5rem;
-                        color: #FFCAB1;
+                        text-decoration: map-get($listasLinks, decoracion);
+                        font-size: $tamañoFuente;
+                        color: map-get($colores, rosado);
                     }
 
                     .main__flecha--estilo {
@@ -99,8 +99,8 @@
                                 color: white;
 
                                 .mainNovedades__divCardH2--estilos {
-                                    display: flex;
-                                    justify-content: center;
+                                    display: map-get($flexbox, display);
+                                    justify-content: map-get($flexbox, justify);
                                 }
 
                                 .mainNovedades__cardP--estilos {

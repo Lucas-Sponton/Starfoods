@@ -28,7 +28,7 @@
   align-items: center;
 }
 .header .header__p--estilo {
-  color: #FFCAB1;
+  color: #ffcab1;
   font-size: 5rem;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -44,21 +44,21 @@
   margin: 1.5rem;
 }
 .header .header__nav .header__navUl .header__navUlLi .header__navUlLiA {
-  color: #FFCAB1;
+  color: #ffcab1;
   text-decoration: none;
 }
 
 /* footer */
-div .footer {
+.footer {
   background-color: #231123;
   padding: 1rem 0.4rem 0rem 0rem;
   display: flex;
   justify-content: flex-end;
 }
-div .footer .footer__div--flex {
+.footer .footer__div--flex {
   display: flex;
 }
-div .footer .footer__div--flex div ul .footer__divRedes--estilo {
+.footer .footer__div--flex div ul .footer__divRedes--estilo {
   list-style: none;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
@@ -67,18 +67,18 @@ div .footer .footer__div--flex div ul .footer__divRedes--estilo {
   margin: 0.8rem 8rem 0rem 0rem;
   align-items: center;
 }
-div .footer .footer__div--flex div ul .footer__divRedes--estilo .footer__divRedesA--estilo {
-  color: #FFCAB1;
+.footer .footer__div--flex div ul .footer__divRedes--estilo .footer__divRedesA--estilo {
+  color: #ffcab1;
   align-items: center;
 }
-div .footer .footer__div--flex div ul .footer__divRedes--estilo .footer__icono--tamaño {
+.footer .footer__div--flex div ul .footer__divRedes--estilo .footer__icono--tamaño {
   font-size: 1.5rem;
   margin-right: 2rem;
 }
-div .footer .footer__nav .footer__navUl {
+.footer .footer__nav .footer__navUl {
   display: flex;
 }
-div .footer .footer__nav .footer__navUl .footer__navUlLi {
+.footer .footer__nav .footer__navUl .footer__navUlLi {
   list-style: none;
   font-size: 18px;
   font-family: Arial, Helvetica, sans-serif;
@@ -86,8 +86,8 @@ div .footer .footer__nav .footer__navUl .footer__navUlLi {
   font-style: oblique;
   margin: 1.5rem;
 }
-div .footer .footer__nav .footer__navUl .footer__navUlLi .footer__navUlLiA {
-  color: #FFCAB1;
+.footer .footer__nav .footer__navUl .footer__navUlLi .footer__navUlLiA {
+  color: #ffcab1;
   text-decoration: none;
 }
 
@@ -95,13 +95,23 @@ div .footer .footer__nav .footer__navUl .footer__navUlLi .footer__navUlLiA {
 @media only screen and (max-width: 480px) {
   .header {
     display: inline-block;
+    width: 100%;
   }
   .header .header__p--estilo {
     font-size: 4rem;
-    padding-left: 50px;
+    padding-left: 30px;
   }
-  .header nav header__navUl {
+  .header .header__nav {
+    display: flex;
+    justify-content: center;
+    margin-right: 5rem;
+  }
+  .header .header__nav .header__navUl {
     display: inline-block;
+  }
+  .header .header__nav .header__navUl .header__navUlLi {
+    border-bottom: solid white;
+    margin-right: 5rem;
   }
 }
 /* footerResponsive */
@@ -110,8 +120,35 @@ div .footer .footer__nav .footer__navUl .footer__navUlLi .footer__navUlLiA {
     display: inline-block;
     width: 100%;
   }
-  .footer nav .footer__navUl {
+  .footer .footer__div--flex {
     display: inline-block;
+    width: 100%;
+  }
+  .footer .footer__div--flex div {
+    justify-content: center;
+    margin-left: 0.6rem;
+  }
+  .footer .footer__div--flex div ul {
+    display: flex;
+    justify-content: center;
+  }
+  .footer .footer__div--flex div ul li {
+    margin: 0rem;
+  }
+  .footer .footer__div--flex div ul li .iconoResponsive {
+    display: none;
+  }
+  .footer .footer__nav {
+    display: flex;
+    justify-content: center;
+  }
+  .footer .footer__nav .footer__navUl {
+    display: inline-block;
+    justify-content: center;
+    margin-right: 7rem;
+  }
+  .footer .footer__nav .footer__navUl .footer__navUlLi {
+    border-bottom: solid white;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -137,8 +174,8 @@ div .footer .footer__nav .footer__navUl .footer__navUlLi .footer__navUlLiA {
   right: 0px;
 }
 .main .main__aside--position .main__aside--display .main__asideImg--estilo {
-  height: 300px;
   width: 200px;
+  height: 300px;
 }
 .main .main__aside--position .main__asideIconoWapp--display {
   position: fixed;
@@ -160,6 +197,8 @@ div .footer .footer__nav .footer__navUl .footer__navUlLi .footer__navUlLiA {
   align-items: center;
   text-align: center;
   margin: 1rem 5rem 4rem 0rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
 }
 .main .main__titulo .main__h1 {
   font-size: 3.5rem;
@@ -174,8 +213,8 @@ div .footer .footer__nav .footer__navUl .footer__navUlLi .footer__navUlLiA {
 }
 .main .container div div .container__p--estiloImpar {
   font-size: 2rem;
-  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
   color: #231123;
   margin: 1rem 1rem 0rem 0rem;
 }
@@ -199,15 +238,15 @@ div .footer .footer__nav .footer__navUl .footer__navUlLi .footer__navUlLiA {
 }
 .main .container div div .container__p--estiloPar {
   font-size: 2rem;
-  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
   color: #231123;
   margin: 4rem 2rem 1rem 5rem;
 }
 .main .container div div .container__p--estiloImpar {
   font-size: 2rem;
-  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
   color: #231123;
   margin: 1rem 1rem 0rem 0rem;
 }
@@ -225,21 +264,21 @@ div .footer .footer__nav .footer__navUl .footer__navUlLi .footer__navUlLiA {
   justify-content: center;
 }
 .main .container div .container__div--estilo .container__imgBanquete--estilo {
+  border-radius: 6rem 10rem 4rem 10rem;
   width: 950px;
   height: 500px;
-  border-radius: 6rem 10rem 4rem 10rem;
 }
 .main .container div .container__p--estiloLargo {
   font-size: 2rem;
-  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
   color: #231123;
   margin: 2rem 5rem 0rem 1rem;
 }
 .main .container div div .container__p--estiloFinal {
   font-size: 1.5rem;
-  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
   color: #231123;
   margin: 1rem 1rem 2rem 1rem;
 }
@@ -248,17 +287,77 @@ div .footer .footer__nav .footer__navUl .footer__navUlLi .footer__navUlLiA {
   justify-content: center;
 }
 .main .container div .container__div--estilo .container__imgFamilia--estilo {
-  width: 600px;
-  height: 375px;
   border-radius: 2rem 2rem 8rem 8rem;
   margin-bottom: 1rem;
+  width: 600px;
+  height: 375px;
 }
 .main .container div div .container__p--estiloFinal {
   font-size: 1.5rem;
-  text-align: center;
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
   color: #231123;
   margin: 1rem 1rem 2rem 1rem;
+}
+
+.main .carrusel--estilo {
+  width: 100%;
+  height: 100%;
+  margin: 1rem 0rem;
+}
+.main .main__aside--position {
+  display: none;
+}
+.main .main__titulo {
+  width: 100%;
+}
+.main div h2 section .main__bienvenida {
+  width: 100%;
+  font-size: 1.5rem;
+  margin: 0rem;
+}
+.main div .lineaResponsive {
+  display: none;
+}
+.main div .linea {
+  margin: 0rem;
+  width: 100%;
+}
+.main .container div {
+  display: inline-block;
+  width: 100%;
+}
+.main .container div div .container__p--estiloImpar {
+  font-size: 1.5rem;
+  margin: 1rem 0rem 0rem 0rem;
+  padding-left: 1rem;
+}
+.main .container div .container__div--estilo .container__imgImpar--estilo {
+  width: 100%;
+  margin: 2rem 1rem 1rem 1rem;
+}
+.main .container div .container__div--estilo .container__imgPar--estilo {
+  width: 100%;
+  margin: 1rem 0rem 0rem 1rem;
+}
+.main .container div div .container__p--estiloPar {
+  font-size: 1.5rem;
+  margin: 2rem 0rem 1rem 0rem;
+}
+.main .container div .container__div--estilo .container__imgBanquete--estilo {
+  width: 100%;
+  height: 100%;
+}
+.main .container div .container__p--estiloLargo {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+.main .container div div .container__p--estiloFinal {
+  margin: 1rem;
+}
+.main .container div .container__div--estilo .container__imgFamilia--estilo {
+  width: 100%;
+  height: 100%;
 }
 
 /* novedades */
@@ -295,7 +394,7 @@ div .footer .footer__nav .footer__navUl .footer__navUlLi .footer__navUlLiA {
 .main .mainNovedades__divBoton--estilo ul li .mainNovedades__boton--estilo .mainNovedades__botonA--estilo {
   text-decoration: none;
   font-size: 1.5rem;
-  color: #FFCAB1;
+  color: #ffcab1;
 }
 .main .mainNovedades__divBoton--estilo ul .mainNovedades__botonP--estilo {
   color: #ffcab1;
@@ -315,7 +414,7 @@ div .footer .footer__nav .footer__navUl .footer__navUlLi .footer__navUlLiA {
 .main .mainNovedades__section ul li .main__botonNovedades--estilo .main__botonA--estilo {
   text-decoration: none;
   font-size: 1.5rem;
-  color: #FFCAB1;
+  color: #ffcab1;
 }
 .main .mainNovedades__section ul li .main__botonNovedades--estilo .main__flecha--estilo {
   border: solid;
@@ -443,8 +542,8 @@ main .main__aside--position .main__aside--display {
   right: 0px;
 }
 main .main__aside--position .main__aside--display .main__asideImg--estilo {
-  height: 300px;
   width: 200px;
+  height: 300px;
 }
 main div .main__titulo {
   align-items: center;
@@ -470,7 +569,7 @@ main div div .main__divContacto--estilo ul .main__divUlLi--estilo {
   display: flex;
   justify-content: center;
 }
-main div div .main__divContacto--estilo ul .main__divUlLi--estilo .main__divIcono--estilo {
+main div div .main__divContacto--estilo ul .main__divUlLi--estilo .main__divIcono--estilo, main div div .main__divContacto--estilo ul .main__divUlLi--estilo .main__divIconoTiktok--estilo {
   font-size: 1.5rem;
   margin: 1.5rem;
 }
@@ -481,7 +580,6 @@ main div div .main__divContacto--estilo ul .main__divUlLi--estilo .main__divUlLi
   font-weight: 500;
 }
 main div div .main__divContacto--estilo ul .main__divUlLi--estilo .main__divIconoTiktok--estilo {
-  font-size: 1.5rem;
   margin: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
 main div div .main__divContacto--estilo ul .main__divUlLi--estilo .main__divUlLiATiktok--estilo {
@@ -507,8 +605,8 @@ main div .main__titulo .main__h1 {
   color: #231123;
 }
 main div div div .main__divIFrame--estilo {
-  height: 310px;
   width: 250px;
+  height: 310px;
   margin: 1.5rem 1rem 1rem 2.5rem;
   border-radius: 25px;
 }
@@ -544,17 +642,17 @@ main .mainCuenta__section--estilos {
   align-items: center;
   width: 100%;
   min-height: 100vh;
-  background: url(../imagenes/Cuenta\ imagenfondo\ 4\ restaurante.avif) no-repeat;
+  background: url(../imagenes/cuenta-imagenfondo-4-restaurante.avif) no-repeat;
   background-position: center;
   background-size: cover;
 }
 main .mainCuenta__section--estilos .mainCuenta__sectionDivContenedor--estilos {
-  position: relative;
   width: 400px;
+  height: 500px;
+  position: relative;
   border: solid 2px rgba(255, 255, 255, 0.6);
   border-radius: 20px;
   backdrop-filter: blur(3px);
-  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;

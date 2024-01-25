@@ -8,26 +8,25 @@
 
 main {
     .mainCuenta__section--estilos {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: map-get($flexbox, display);
+        justify-content: map-get($flexbox, justify);
+        align-items: map-get($flexbox, align);
         width: 100%;
         min-height: 100vh;
-        background: url(../imagenes/Cuenta\ imagenfondo\ 4\ restaurante.avif) no-repeat;
+        background: url(../imagenes/cuenta-imagenfondo-4-restaurante.avif) no-repeat;
         background-position: center;
         background-size: cover;
         .mainCuenta__sectionDivContenedor--estilos {
+            @include imagenes (400px,500px);
             position: relative;
-            width: 400px;
             border: solid 2px rgba(255, 255, 255, .6);
             border-radius: 20px;
             backdrop-filter: blur(3px);
-            height: 500px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            display: map-get($flexbox, display);
+            justify-content: map-get($flexbox, justify);
+            align-items: map-get($flexbox, align);
             h1 {
-                font-size: 2.3rem;
+                font-size: $tamañoFuente+.8;
                 color: #fff;
                 text-align: center;
                 margin: 1.5rem 0rem 1rem 0rem;
