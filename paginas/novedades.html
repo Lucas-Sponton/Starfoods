@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarFoods | Novedades</title>
+    <link rel="shortcut icon" href="../Imagenes/FAVICON ST 1.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos/estilo.css">
+</head>
+
+<body class="backgroundColor">
+    <header class="header">
+        <p class="header__p--estilo">StarFoods</p>
+        <nav class="header__nav">
+            <ul class="header__navUl">
+                <li class="header__navUlLi">
+                    <a class="header__navUlLiA" href="../index.html">Inicio</a>
+                </li>
+                <li class="header__navUlLi">
+                    <a class="header__navUlLiA" href="#">Novedades</a>
+                </li>
+                <li class="header__navUlLi">
+                    <a class="header__navUlLiA" href="./categorias.html">Categorias</a>
+                </li>
+                <li class="header__navUlLi">
+                    <a class="header__navUlLiA" href="./sobre-nosotros.html">Sobre nosotros</a>
+                </li>
+                <li class="header__navUlLi">
+                    <a class="header__navUlLiA" href="./cuenta.html">Cuenta</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <div class="main__titulo">
+            <h1 class="main__h1" id="novedades">Novedades</h1>
+        </div>
+        <div class="mainNovedades__div--estilo">
+            <p class="main__bienvenida">En esta seccion podras encontrar lo mas nuevo, nuestras ofertas, y diversos
+                packs familiares para que estes al tanto de nuestros productos al mejor precio.</p>
+        </div>
+
+        <div class="mainNovedades__divBoton--estilo">
+            <ul>
+                <li>
+                    <button type="button" class="btn mainNovedades__boton--estilo"><a
+                            class="mainNovedades__botonA--estilo" href="#LoMasNuevo">Lo mas nuevo</a></button>
+                </li>
+                <p class="mainNovedades__botonP--estilo">||</p>
+                <li>
+                    <button type="button" class="btn mainNovedades__boton--estilo"><a
+                            class="mainNovedades__botonA--estilo" href="#Ofertas">Ofertas</a></button>
+                </li>
+                <p class="mainNovedades__botonP--estilo">||</p>
+                <li>
+                    <button type="button" class="btn mainNovedades__boton--estilo"><a
+                            class="mainNovedades__botonA--estilo" href="#packFamiliar">Pack familiar</a></button>
+                </li>
+            </ul>
+        </div>
+        <div class="main__aside--position">
+            <aside class="main__aside--display">
+                <a href="https://www.rappi.com.ar" target="_blank">
+                    <img class="main__asideImg--estilo" src="../imagenes/aaa-index-aside 1.jpeg"
+                        alt="propaganda de rappi">
+                </a>
+            </aside>
+            <aside class="main__asideIconoWapp--display">
+                <a href="https://web.whatsapp.com" target="_blank">
+                    <iconify-icon class="main__asideIcono--estilo" icon="logos:whatsapp-icon"></iconify-icon>
+                </a>
+            </aside>
+            <aside class="main__asideIconoInsta--display">
+                <a href="https://www.instagram.com" target="_blank">
+                    <iconify-icon class="main__asideIcono--estilo" icon="skill-icons:instagram"></iconify-icon>
+                </a>
+            </aside>
+        </div>
+        <div class="lineaNovedades"></div>
+        <section class="mainNovedades__section">
+            <ul>
+                <li>
+                    <div>
+                        <button id="LoMasNuevo" class="main__botonNovedades--estilo" type="button"><a
+                                class="main__botonA--estilo" href="#novedades">Lo mas nuevo<iconify-icon
+                                    class="main__flecha--estilo"
+                                    icon="mingcute:arrow-up-fill"></iconify-icon></a></button>
+                    </div>
+                </li>
+                <div class="row col-8 mainNovedades__carrusel--estilo">
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../imagenes/novedades lomasnuevo 1.jpg"
+                                    class="d-block w-100 mainNovedades__carrusel--estiloBordes"
+                                    alt="Dos tacos de carne picada con crema jamón tomate acompañados de medio limón">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2>MexiCraze Meat</h2>
+                                    <p>El mexicraze meat, dos tacos de carne de res con jamón, tomate, salsa blanca,
+                                        cebolla y acompañado de limón</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../imagenes/novedades lomasnuevo 5.jpg"
+                                    class="d-block w-100 mainNovedades__carrusel--estiloBordes"
+                                    alt="Pizza al molde napolitana con queso mozzarella, rodajas de morrón y aceitunas.">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2>Rústica mediterránea</h2>
+                                    <p>Pizza con queso mozzarella, al molde, con tomate de huerta, rodajas de morrón
+                                        rojo y aceitunas.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../imagenes/novedades lomasnuevo 3.jpg"
+                                    class="d-block w-100 mainNovedades__carrusel--estiloBordes"
+                                    alt="Fideos tubitos largos con salsa y hoja de cilantro. ">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2>Glaturinni</h2>
+                                    <p>Fideos de tubos largos, con salsa marinara hecha con tomates de huerta y hojas de
+                                        cilantro.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="row row_margin">
+                        <div class="col-4">
+                            <div class="card mainNovedades__divCard--estilos" style="width: 18rem;">
+                                <img src="../imagenes/lo-mas-nuevo1.jpeg"
+                                    class="card-img-top mainNovedades__divCardImg--estilos" alt="...">
+                                <div class="card-body mainNovedades__divCardTexto--estilos">
+                                    <h2 class="mainNovedades__divCardH2--estilos">Combo gourmet</h2>
+                                    <p class="card-text mainNovedades__cardP--estilos">3 Hamburguesas con
+                                        acompañamientos a gusto para comer en local. ¡Solo disponible los miércoles!</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mainNovedades__divCard--estilos" style="width: 18rem;">
+                                <img src="../imagenes/Novedades2.jpeg"
+                                    class="card-img-top mainNovedades__divCardImg--estilos"
+                                    alt="2 panchos, una hamburguesa completa, y dos conos con papas fritas.">
+                                <div class="card-body mainNovedades__divCardTexto--estilos">
+                                    <h2 class="mainNovedades__divCardH2--estilos">Combo niños</h2>
+                                    <p class="card-text mainNovedades__cardP--estilos">Dos panchos con aderezo a gusto,
+                                        papas fritas y hamburguesa grilled de acompañamiento.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mainNovedades__divCard--estilos" style="width: 18rem;">
+                                <img src="../imagenes/Pizza4.jpeg"
+                                    class="card-img-top mainNovedades__divCardImg--estilos"
+                                    alt="pizza fugazzeta sobre mantel azul.">
+                                <div class="card-body mainNovedades__divCardTexto--estilos">
+                                    <h2 class="mainNovedades__divCardH2--estilos">Fugazzeta</h2>
+                                    <p class="card-text mainNovedades__cardP--estilos">Proba nuestra nueva pizza sabor
+                                        fugazzeta, hecha al molde, con mucho mas queso que antes para que disfrutes.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mainNovedades__divCard--estilos" style="width: 18rem;">
+                                <img src="../imagenes/Asado9.jpeg"
+                                    class="card-img-top mainNovedades__divCardImg--estilos"
+                                    alt="corte de matambre condimentado bien cocinado sobre tablon de madera.">
+                                <div class="card-body mainNovedades__divCardTexto--estilos">
+                                    <h2 class="mainNovedades__divCardH2--estilos">Matambrito</h2>
+                                    <p class="card-text mainNovedades__cardP--estilos">Estás listo para probar nuestro
+                                        matambre con nuestra coccion a fuego lento, el matambre mas tierno que podrás
+                                        probar.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mainNovedades__divCard--estilos" style="width: 18rem;">
+                                <img src="../imagenes/Taco1.jpeg"
+                                    class="card-img-top mainNovedades__divCardImg--estilos"
+                                    alt="par de tacos de carne con tomate lechuga cebolla morada y esparragos.">
+                                <div class="card-body mainNovedades__divCardTexto--estilos">
+                                    <h2 class="mainNovedades__divCardH2--estilos">Double taquitos</h2>
+                                    <p class="card-text mainNovedades__cardP--estilos">Doble tacos pequeños para
+                                        infantes, de carne de res con lechuga, tomate, cebolla morada, y espárragos.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mainNovedades__divCard--estilos" style="width: 18rem;">
+                                <img src="../imagenes/novedades lomasnuevo 7.jpg"
+                                    class="card-img-top mainNovedades__divCardImg--estilos"
+                                    alt="Pizza al molde de mozzarella con ajo aceitunas hoja de cilantro y salami">
+                                <div class="card-body mainNovedades__divCardTexto--estilos">
+                                    <h2 class="mainNovedades__divCardH2--estilos">Daddy salami</h2>
+                                    <p class="card-text mainNovedades__cardP--estilos">Proba nuestra pizza para dos
+                                        personas, de mozzarella con trocitos de ajo, hojas de cilantro, salami y
+                                        aceitunas negras.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <li>
+                    <div>
+                        <button id="Ofertas" class="main__botonNovedades--estilo" type="button"><a
+                                class="main__botonA--estilo" href="#novedades">Ofertas<iconify-icon
+                                    class="main__flecha--estilo"
+                                    icon="mingcute:arrow-up-fill"></iconify-icon></a></button>
+                    </div>
+                </li>
+                <div class="row col-8 mainNovedades__carrusel--estilo">
+                    <div id="caruselMedio" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#caruselMedio" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#caruselMedio" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#caruselMedio" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../imagenes/novedades lomasnuevo 8.jpg"
+                                    class="d-block w-100 mainNovedades__carrusel--estiloBordes"
+                                    alt="hamburguesa completa de lechiga tomate cebolla y queso cheddar">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2>Lonely stacker</h2>
+                                    <p>Proba nuestra hamburguesa individual, hecha con carne de res con lechuga, tomate,
+                                        cebolla, y queso cheddar.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../imagenes/Novedades4.jpeg"
+                                    class="d-block w-100 mainNovedades__carrusel--estiloBordes"
+                                    alt="pancho completo, de carne de cerdo, con mayonesa morron rojo lechuga y pepino.">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2>Salchicha ranchera</h2>
+                                    <p>Salchicha de cerdo con morron rojo, cebolla, lechuga, pepino y aderezo a gusto.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../imagenes/Taco4.jpeg"
+                                    class="d-block w-100 mainNovedades__carrusel--estiloBordes"
+                                    alt="3 tacos de carne de res con tomate lechuga, cebolla, morron acompañado de fritas">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2>Tacos hogareños</h2>
+                                    <p>3 Tacos de carne de res con lechuga, tomate, cebolla y morrón acompañado de
+                                        fritas.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="row row_margin">
+                        <div class="col-4">
+                            <div class="card mainNovedades__divCard--estilos" style="width: 18rem;">
+                                <img src="../imagenes/novedades lomasnuevo 10.jpg"
+                                    class="card-img-top mainNovedades__divCardImg--estilos"
+                                    alt="hamburguesa de carne con huevo frito tomate cebolla y pepinillos">
+                                <div class="card-body mainNovedades__divCardTexto--estilos">
+                                    <h2 class="mainNovedades__divCardH2--estilos">Peppini Royale</h2>
+                                    <p class="card-text mainNovedades__cardP--estilos">Prepárate para probar esta rica
+                                        hamburguesa de ternera, con guevo a la plancha, queso cheddar tomate y
+                                        pepinillos.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mainNovedades__divCard--estilos" style="width: 18rem;">
+                                <img src="../imagenes/novedades lomasnuevo 11.jpg"
+                                    class="card-img-top mainNovedades__divCardImg--estilos"
+                                    alt="pasta de fideos largos enrollagos con salsa y con trozos de tomate y cebolla">
+                                <div class="card-body mainNovedades__divCardTexto--estilos">
+                                    <h2 class="mainNovedades__divCardH2--estilos">Redondasta</h2>
+                                    <p class="card-text mainNovedades__cardP--estilos">Disfruta de una comida
+                                        visualmente gustoza de estos difeos largos con salsa, con trozos de tomate y
+                                        cebolla.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mainNovedades__divCard--estilos" style="width: 18rem;">
+                                <img src="../imagenes/novedades lomasnuevo 4.jpg"
+                                    class="card-img-top mainNovedades__divCardImg--estilos"
+                                    alt="pizza a la piedra de mozzarella con salame y tomate arriba">
+                                <div class="card-body mainNovedades__divCardTexto--estilos">
+                                    <h2 class="mainNovedades__divCardH2--estilos">Tomalini</h2>
+                                    <p class="card-text mainNovedades__cardP--estilos">Nuestra tomalini, hecha a la
+                                        piedra con quesso mozzarella mezclado con roquefort, con tomate y salame.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mainNovedades__divCard--estilos" style="width: 18rem;">
+                                <img src="../imagenes/novedades lomasnuevo 6.jpg"
+                                    class="card-img-top mainNovedades__divCardImg--estilos"
+                                    alt="pizza al molde de roquefort y cheddar con aceitunas negras.">
+                                <div class="card-body mainNovedades__divCardTexto--estilos">
+                                    <h2 class="mainNovedades__divCardH2--estilos">Cheffort</h2>
+                                    <p class="card-text mainNovedades__cardP--estilos">Pizza al molde con tomate de
+                                        huerta, con queso roquefort mezclado con cheddar y aceitunas negras.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mainNovedades__divCard--estilos" style="width: 18rem;">
+                                <img src="../imagenes/novedades lomasnuevo 12.jpg"
+                                    class="card-img-top mainNovedades__divCardImg--estilos"
+                                    alt="pasta de fideos largos con cebollar acompañada y trozos de ternerita.">
+                                <div class="card-body mainNovedades__divCardTexto--estilos">
+                                    <h2 class="mainNovedades__divCardH2--estilos">Meatpast</h2>
+                                    <p class="card-text mainNovedades__cardP--estilos">Nuestro especial de la casa,
+                                        fideos spaghetti con salsa acompañados de cebolla y ternerita.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mainNovedades__divCard--estilos" style="width: 18rem;">
+                                <img src="../imagenes/Asado10.jpeg"
+                                    class="card-img-top mainNovedades__divCardImg--estilos"
+                                    alt="provoleta cocinada en sarten sobre tablon de madera.">
+                                <div class="card-body mainNovedades__divCardTexto--estilos">
+                                    <h2 class="mainNovedades__divCardH2--estilos">Provoleta</h2>
+                                    <p class="card-text mainNovedades__cardP--estilos">La provoleta de 4 quesos hecha a
+                                        la parrila es de nuestros platos mas solicitados, gracias a su queso fresco y
+                                        bien derretido.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <li>
+                    <div>
+                        <button id="packFamiliar" class="main__botonNovedades--estilo" type="button"><a
+                                class="main__botonA--estilo" href="#novedades">Packs familiares<iconify-icon
+                                    class="main__flecha--estilo"
+                                    icon="mingcute:arrow-up-fill"></iconify-icon></a></button>
+                    </div>
+                </li>
+                <div class="row col-8 mainNovedades__carrusel--estilo">
+                    <div id="caruselFinal" class="carousel slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#caruselFinal" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#caruselFinal" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#caruselFinal" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="../imagenes/novedades lomasnuevo 9.jpg"
+                                    class="d-block w-100 mainNovedades__carrusel--estiloBordes"
+                                    alt="hamburguesa de carne con tomate cheddar lechuga y pepins">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2>Grand tasty</h2>
+                                    <p>Hamburguesa de carne de res, con cheddar, tomate, lechuga y pepino y pan con
+                                        semillas de chía.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../imagenes/Hamburguesa9.jpeg"
+                                    class="d-block w-100 mainNovedades__carrusel--estiloBordes"
+                                    alt="hamburguwsa doble completa con cono de papas fritas y vaso de coca cola.">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2>Combo individual</h2>
+                                    <p>Hamburguesa doble de carne de res, con lechuga tomate mucho cheddar, acompañado
+                                        de fritas y vaso de coca cola.</p>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../imagenes/lo-mas-nuevo4.jpeg"
+                                    class="d-block w-100 mainNovedades__carrusel--estiloBordes"
+                                    alt="hamburguesa de pollo con lechuga cebolla y rodajas de pepino">
+                                <div class="carousel-caption d-none d-md-block">
+                                    <h2>Chicken krispy</h2>
+                                    <p>Hamburguesa de pollo con lechuga, cebolla y rodajas de pepino en pan con
+                                        semillas.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                    <div class="row row_margin">
+                        <div class="col-4">
+                            <div class="card mainNovedades__divCard--estilos" style="width: 18rem;">
+                                <img src="../imagenes/pack-familiar1.jpeg"
+                                    class="card-img-top mainNovedades__divCardImg--estilos"
+                                    alt="paquete familiar, incluye una hamburguesa con cheddar, sandwich de carne completo, papas fritas, mcnuggets, pizza y ensalada">
+                                <div class="card-body mainNovedades__divCardTexto--estilos">
+                                    <h2 class="mainNovedades__divCardH2--estilos">Combo familiar</h2>
+                                    <p class="card-text mainNovedades__cardP--estilos">Combo de 5 piezas distintas,
+                                        pizza, hamburguesa, sandwich, papas fritas y ensaladas, todas a gusto de la
+                                        persona.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mainNovedades__divCard--estilos" style="width: 18rem;">
+                                <img src="../imagenes/pack-familiar2.jpeg"
+                                    class="card-img-top mainNovedades__divCardImg--estilos"
+                                    alt="paquete pareja, incluye aros de cebolla baton mozzarella, dos pizzas y 2 canastas de mcnuggets mas una hamburguesa con papas">
+                                <div class="card-body mainNovedades__divCardTexto--estilos">
+                                    <h2 class="mainNovedades__divCardH2--estilos">Combo Pareja</h2>
+                                    <p class="card-text mainNovedades__cardP--estilos">Para disfrutar en pareja, 2
+                                        pizzas, bastones mozzarella, aros de cebolla, 2 canastas de mcnuggets, + una
+                                        hamburgesa.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mainNovedades__divCard--estilos" style="width: 18rem;">
+                                <img src="../imagenes/pack-familiar3.jpeg"
+                                    class="card-img-top mainNovedades__divCardImg--estilos"
+                                    alt="paquete amigos, 6 hamburguesas a gustos con canasto de papas fritas grandes.">
+                                <div class="card-body mainNovedades__divCardTexto--estilos">
+                                    <h2 class="mainNovedades__divCardH2--estilos">Combo friends</h2>
+                                    <p class="card-text mainNovedades__cardP--estilos">Para compartir con amigos, 6
+                                        hamburguesas completas a gusto, con canasto grande de papas fritas.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mainNovedades__divCard--estilos" style="width: 18rem;">
+                                <img src="../imagenes/pack-familiar4.jpeg"
+                                    class="card-img-top mainNovedades__divCardImg--estilos"
+                                    alt="dos panchos completos, dos hamburguesas completas con fritas , donas, y media pizza ">
+                                <div class="card-body mainNovedades__divCardTexto--estilos">
+                                    <h2 class="mainNovedades__divCardH2--estilos">Combo otoñal</h2>
+                                    <p class="card-text mainNovedades__cardP--estilos">Dos hamburguesas completas, mas
+                                        dos panchos a gusto, con papas fritas, media pizza a gusto y donas para el
+                                        postre.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mainNovedades__divCard--estilos" style="width: 18rem;">
+                                <img src="../imagenes/pack-familiar5.jpeg"
+                                    class="card-img-top mainNovedades__divCardImg--estilos"
+                                    alt="3 pizzas de mozzarella con condimentos, papas fritas, snaks, y empanada gigante.">
+                                <div class="card-body mainNovedades__divCardTexto--estilos">
+                                    <h2 class="mainNovedades__divCardH2--estilos">Combo Fritura</h2>
+                                    <p class="card-text mainNovedades__cardP--estilos">3 Pizzas a gusto, con dos
+                                        hamburguesas con fritas y aros de cebolla, snacks, y empanada de carne gigante.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card mainNovedades__divCard--estilos" style="width: 18rem;">
+                                <img src="../imagenes/pack-familiar6.jpeg"
+                                    class="card-img-top mainNovedades__divCardImg--estilos"
+                                    alt="una pizza grande a mozzarella con tomate y morron, dos hamburguesas, empanaditas fritas y mcnuggets, papas fritas y baston mozzarella">
+                                <div class="card-body mainNovedades__divCardTexto--estilos">
+                                    <h2 class="mainNovedades__divCardH2--estilos">Combo large</h2>
+                                    <p class="card-text mainNovedades__cardP--estilos">Una pizza a gusto con dos
+                                        hamburguesas con fritas y aros de cebolla, empanadas, mcnuggets y baston
+                                        mozzarella.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </ul>
+        </section>
+    </main>
+    <div>
+        <footer class="footer">
+            <div class="footer__div--flex">
+                <div>
+                    <ul>
+                        <li class="footer__divRedes--estilo">
+                            <a class="footer__divRedesA--estilo" href="">Whatsapp</a>
+                        </li>
+                        <li class="footer__divRedes--estilo">
+                            <a class="footer__divRedesA--estilo" href="">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <div>
+                            <li class="footer__divRedes--estilo footer__div--flex">
+                                <iconify-icon class="footer__icono--tamaño" icon="devicon:facebook"></iconify-icon>
+                                <a class="footer__divRedesA--estilo" href="">Facebook</a>
+                            </li>
+                        </div>
+                        <li class="footer__divRedes--estilo footer__div--flex">
+                            <iconify-icon class="footer__icono--tamaño" icon="logos:tiktok-icon"></iconify-icon>
+                            <a class="footer__divRedesA--estilo" href="">Tiktok</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <nav class="footer__nav">
+                <ul class="footer__navUl">
+                    <li class="footer__navUlLi">
+                        <a class="footer__navUlLiA" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="footer__navUlLi">
+                        <a class="footer__navUlLiA" href="#">Novedades</a>
+                    </li>
+                    <li class="footer__navUlLi">
+                        <a class="footer__navUlLiA" href="./categorias.html">Categorias</a>
+                    </li>
+                    <li class="footer__navUlLi">
+                        <a class="footer__navUlLiA" href="./sobre-nosotros.html">Sobre nosotros</a>
+                    </li>
+                    <li class="footer__navUlLi">
+                        <a class="footer__navUlLiA" href="./cuenta.html">Cuenta</a>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+
+</html>

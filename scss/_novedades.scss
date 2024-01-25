@@ -1,0 +1,121 @@
+/* novedades */
+
+.main {
+    .mainNovedades__div--estilo {
+        margin-bottom: 5rem;
+
+        .main__bienvenida {
+            color: #231123;
+            font-size: 2.5rem;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin: 1rem 12rem 1rem 3rem;
+        }
+    }
+
+    .mainNovedades__divBoton--estilo {
+        background-color: #231123;
+        border-color: black;
+        border-radius: 3rem;
+        width: 80%;
+        padding: 1rem;
+        margin: 2rem 0rem 3rem 3rem;
+
+        ul {
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 0rem;
+
+            li {
+                margin: 0rem 4rem 0rem 4rem;
+                list-style: none;
+
+                .mainNovedades__boton--estilo {
+                    background-color: #231123;
+
+                    .mainNovedades__botonA--estilo {
+                        text-decoration: none;
+                        font-size: 1.5rem;
+                        color: #FFCAB1;
+                    }
+                }
+            }
+
+            .mainNovedades__botonP--estilo {
+                color: #ffcab1;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    .mainNovedades__section {
+        ul {
+            li {
+                list-style: none;
+
+                .main__botonNovedades--estilo {
+                    background-color: #231123;
+                    border-color: black;
+                    border-radius: 3rem;
+                    width: 83%;
+                    padding: 1rem;
+                    margin: 2rem 0rem 3rem 1rem;
+
+                    .main__botonA--estilo {
+                        text-decoration: none;
+                        font-size: 1.5rem;
+                        color: #FFCAB1;
+                    }
+
+                    .main__flecha--estilo {
+                        border: solid;
+                        border-radius: 20px;
+                        margin-left: 2rem;
+                    }
+                }
+            }
+
+            .mainNovedades__carrusel--estilo {
+                width: 1000px;
+                margin: 1rem 1rem 1rem 3rem;
+
+                .mainNovedades__carrusel--estiloBordes {
+                    border-radius: 100px;
+                }
+
+                div {
+                    div {
+                        .mainNovedades__divCard--estilos {
+                            margin: 1.5rem 0rem 1rem 0rem;
+                            border-radius: 20px;
+                            background-color: #231123;
+
+                            .mainNovedades__divCardImg--estilos {
+                                border-radius: 20px;
+                                height: 200px;
+                            }
+
+                            .mainNovedades__divCardTexto--estilos {
+                                color: white;
+
+                                .mainNovedades__divCardH2--estilos {
+                                    display: flex;
+                                    justify-content: center;
+                                }
+
+                                .mainNovedades__cardP--estilos {
+                                    margin-left: 1.5rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .lineaNovedades {
+        border: double 5px #231123cf;
+        margin: 0rem 14rem 3rem 5rem;
+    }
+}

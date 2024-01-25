@@ -1,0 +1,134 @@
+/* sobreNosotros */
+
+main {
+    .main__aside--position {
+        display: inline-block;
+        .main__aside--display {
+            position: fixed;
+            top: 168px;
+            right: 0px;
+            
+
+            .main__asideImg--estilo {
+                height: 300px;
+                width: 200px;
+            }
+        }
+    }
+    div {
+        .main__titulo {
+            align-items: center;
+            text-align: center;
+            margin: 1rem 5rem 4rem 0rem;
+
+            .main__h1 {
+                font-size: 3.5rem;
+                color: #231123;
+            }
+        }
+
+        div {
+            .main__divContacto--estilo {
+                background-color: #2311235e;
+                border: double 5px #231123e0;
+                border-radius: 5px 5px 10px 10px;
+
+                .main__divH2--estilo {
+                    display: flex;
+                    color: #231123;
+                    justify-content: center;
+                    margin-top: 1rem;
+                }
+
+                ul {
+                    .main__divUlLi--estilo {
+                        display: flex;
+                        justify-content: center;
+
+                        .main__divIcono--estilo {
+                            font-size: 1.5rem;
+                            margin: 1.5rem;
+                        }
+
+                        .main__divUlLiA--estilo {
+                            margin: 1.5rem 7rem 1rem 0rem;
+                            color: #231123;
+                            list-style: none;
+                            font-weight: 500;
+                        }
+
+                        .main__divIconoTiktok--estilo {
+                            font-size: 1.5rem;
+                            margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+                        }
+
+                        .main__divUlLiATiktok--estilo {
+                            margin: 1.5rem 8.5rem 1rem 0rem;
+                            color: #231123;
+                            list-style: none;
+                            font-weight: 500;
+                        }
+                    }
+                }
+            }
+
+            div {
+                .main__divP--estilo {
+                    font-size: 1.33rem;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    color: #231123;
+                    margin-right: 2rem;
+                }
+            }
+        }
+
+        .main__titulo {
+            align-items: center;
+            text-align: center;
+            margin: 1rem 5rem 4rem 0rem;
+
+            .main__h1 {
+                font-size: 3.5rem;
+                color: #231123;
+            }
+        }
+
+        div {
+            div {
+                .main__divIFrame--estilo {
+                    height: 310px;
+                    width: 250px;
+                    margin: 1.5rem 1rem 1rem 2.5rem;
+                    border-radius: 25px;
+                }
+            }
+
+            div {
+                .main__divCard--estilo {
+                    margin: 1.5rem 0rem 1rem 1rem;
+                    border-radius: 20px;
+                    background-color: #231123;
+
+                    .main__divCardImg--estilo {
+                        width: 191px;
+                        height: 123px;
+                        border-radius: 20px;
+                    }
+
+                    div {
+                        .main__divCardTitulo {
+                            display: flex;
+                            justify-content: center;
+                            color: white;
+                            font-size: 1.3rem;
+                        }
+                        .card-text {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

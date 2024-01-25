@@ -1,0 +1,56 @@
+/* Cuenta */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    .mainCuenta__section--estilos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        min-height: 100vh;
+        background: url(../imagenes/Cuenta\ imagenfondo\ 4\ restaurante.avif) no-repeat;
+        background-position: center;
+        background-size: cover;
+        .mainCuenta__sectionDivContenedor--estilos {
+            position: relative;
+            width: 400px;
+            border: solid 2px rgba(255, 255, 255, .6);
+            border-radius: 20px;
+            backdrop-filter: blur(3px);
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            h1 {
+                font-size: 2.3rem;
+                color: #fff;
+                text-align: center;
+                margin: 1.5rem 0rem 1rem 0rem;
+            }
+            .mainCuenta__sectionFormGénero--estilos {
+                margin: 1rem 0rem;
+            }
+        }
+        form {
+            div {
+                .inputcuentaclase {
+                    background-color: white;
+                    border-radius: 7px;
+                    color: black;
+                    
+                    padding: .5rem;
+                    margin: 0rem 3rem 1rem 0rem;
+                }
+            }
+        }
+    }
+}
+
+
+
+
