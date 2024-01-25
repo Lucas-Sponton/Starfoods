@@ -1,0 +1,46 @@
+@media only screen and (max-width: 480px) {
+
+
+
+    .main {
+        .mainCategorias__div--estilo {
+            width: 100%;
+
+            .mainCategorias__bienvenida {
+                width: 100%;
+                margin: 0rem;
+            }
+        }
+
+        .divResponsive {
+            display: none;
+        }
+
+        div {
+            ul {
+                padding: 0rem;
+
+                li {
+                    div {
+                        .mainCategorias__divBoton--estilo {
+                            width: 100%;
+                            margin: 0rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .mainCategorias__divCard--margen {
+            width: 100%;
+
+            div {
+                .col-4 {
+                    width: 100%;
+                    margin: 0rem;
+                }
+            }
+        }
+    }
+
+}
