@@ -7,15 +7,16 @@
 @import "./base/generales";
 @import "./components/header";
 @import "./components/footer";
-@import "./utilities/mediaQueryHeaderFooter";
 @import "./pages/index";
-@import "./utilities/mediaQueryIndex";
 @import "./pages/novedades";
-@import "./utilities/mediaQueryNovedades";
 @import "./pages/categorias";
-@import "./utilities/mediaQueryCategorias";
 @import "./pages/sobreNosotros";
-@import "./utilities/mediaQuerySobreNosotros";
 @import "./pages/cuenta";
+
+@import "./utilities/mediaQueryHeaderFooter";
+@import "./utilities/mediaQueryIndex";
+@import "./utilities/mediaQueryNovedades";
+@import "./utilities/mediaQueryCategorias";
+@import "./utilities/mediaQuerySobreNosotros";
 
 

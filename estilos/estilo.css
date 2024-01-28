@@ -91,71 +91,6 @@
   text-decoration: none;
 }
 
-/* headerResponsive */
-@media only screen and (max-width: 480px) {
-  .header {
-    display: inline-block;
-    width: 100%;
-  }
-  .header .header__p--estilo {
-    font-size: 4rem;
-    padding-left: 30px;
-  }
-  .header .header__nav {
-    display: flex;
-    justify-content: center;
-    margin-right: 5rem;
-  }
-  .header .header__nav .header__navUl {
-    display: inline-block;
-  }
-  .header .header__nav .header__navUl .header__navUlLi {
-    border-bottom: solid white;
-    margin-right: 5rem;
-  }
-}
-/* footerResponsive */
-@media only screen and (max-width: 480px) {
-  .footer {
-    display: inline-block;
-    width: 100%;
-  }
-  .footer .footer__div--flex {
-    display: inline-block;
-    width: 100%;
-  }
-  .footer .footer__div--flex div {
-    justify-content: center;
-    margin-left: 0.6rem;
-  }
-  .footer .footer__div--flex div ul {
-    display: flex;
-    justify-content: center;
-  }
-  .footer .footer__div--flex div ul li {
-    margin: 0rem;
-  }
-  .footer .footer__div--flex div ul li .iconoResponsive {
-    display: none;
-  }
-  .footer .footer__nav {
-    display: flex;
-    justify-content: center;
-  }
-  .footer .footer__nav .footer__navUl {
-    display: inline-block;
-    justify-content: center;
-    margin-right: 7rem;
-  }
-  .footer .footer__nav .footer__navUl .footer__navUlLi {
-    border-bottom: solid white;
-  }
-}
-@media only screen and (max-width: 480px) {
-  .linea {
-    margin: 0rem 0rem 2rem 8.4rem;
-  }
-}
 /* index */
 .main .carrusel--estilo {
   width: 1000px;
@@ -300,67 +235,6 @@
   margin: 1rem 1rem 2rem 1rem;
 }
 
-@media only screen and (max-width: 480px) {
-  .main .carrusel--estilo {
-    width: 100%;
-    height: 100%;
-    margin: 1rem 0rem;
-  }
-  .main .main__aside--position {
-    display: none;
-  }
-  .main .main__titulo {
-    width: 100%;
-  }
-  .main div h2 section .main__bienvenida {
-    width: 100%;
-    font-size: 1.5rem;
-    margin: 0rem;
-  }
-  .main div .lineaResponsive {
-    display: none;
-  }
-  .main div .linea {
-    margin: 0rem;
-    width: 100%;
-  }
-  .main .container div {
-    display: inline-block;
-    width: 100%;
-  }
-  .main .container div div .container__p--estiloImpar {
-    font-size: 1.5rem;
-    margin: 1rem 0rem 0rem 0rem;
-    padding-left: 1rem;
-  }
-  .main .container div .container__div--estilo .container__imgImpar--estilo {
-    width: 100%;
-    margin: 2rem 1rem 1rem 1rem;
-  }
-  .main .container div .container__div--estilo .container__imgPar--estilo {
-    width: 100%;
-    margin: 1rem 0rem 0rem 1rem;
-  }
-  .main .container div div .container__p--estiloPar {
-    font-size: 1.5rem;
-    margin: 2rem 0rem 1rem 0rem;
-  }
-  .main .container div .container__div--estilo .container__imgBanquete--estilo {
-    width: 100%;
-    height: 100%;
-  }
-  .main .container div .container__p--estiloLargo {
-    font-size: 1.5rem;
-    margin: 1rem;
-  }
-  .main .container div div .container__p--estiloFinal {
-    margin: 1rem;
-  }
-  .main .container div .container__div--estilo .container__imgFamilia--estilo {
-    width: 100%;
-    height: 100%;
-  }
-}
 /* novedades */
 .main .mainNovedades__div--estilo {
   margin-bottom: 5rem;
@@ -453,40 +327,6 @@
   margin: 0rem 14rem 3rem 5rem;
 }
 
-@media only screen and (max-width: 480px) {
-  .main .mainNovedades__div--estilo .main__bienvenida {
-    font-size: 1.5rem;
-    margin: 0rem;
-    width: 100%;
-  }
-  .main .divResponsive {
-    width: 100%;
-    display: none;
-    /*boton*/
-  }
-  .main .lineaNovedades {
-    width: 100%;
-    margin: 0rem;
-  }
-  .main .mainNovedades__section ul {
-    padding: 0rem;
-  }
-  .main .mainNovedades__section ul .mainNovedades__carrusel--estilo {
-    width: 100%;
-    margin: 0rem;
-  }
-  .main .mainNovedades__section ul .mainNovedades__carrusel--estilo div {
-    display: inline-block;
-  }
-  .main .mainNovedades__section ul .mainNovedades__carrusel--estilo div .col-4 {
-    width: 100%;
-  }
-  .main .mainNovedades__section ul .mainNovedades__carrusel--estilo div .col-4 .mainNovedades__divCard--estilos {
-    width: 100%;
-    height: 100%;
-    margin: 1rem 0rem 1rem 4rem;
-  }
-}
 /* categorias */
 .main .mainCategorias__div--estilo {
   margin-bottom: 5rem;
@@ -567,32 +407,6 @@
   margin-left: 1.5rem;
 }
 
-@media only screen and (max-width: 480px) {
-  .main .mainCategorias__div--estilo {
-    width: 100%;
-  }
-  .main .mainCategorias__div--estilo .mainCategorias__bienvenida {
-    width: 100%;
-    margin: 0rem;
-  }
-  .main .divResponsive {
-    display: none;
-  }
-  .main div ul {
-    padding: 0rem;
-  }
-  .main div ul li div .mainCategorias__divBoton--estilo {
-    width: 100%;
-    margin: 0rem;
-  }
-  .main .mainCategorias__divCard--margen {
-    width: 100%;
-  }
-  .main .mainCategorias__divCard--margen div .col-4 {
-    width: 100%;
-    margin: 0rem;
-  }
-}
 /* sobreNosotros */
 main .main__aside--position {
   display: inline-block;
@@ -691,32 +505,6 @@ main div div div .main__divCard--estilo div .card-text {
   color: white;
 }
 
-@media only screen and (max-width: 480px) {
-  main .main__aside--display {
-    display: none;
-  }
-  main div .main__titulo {
-    margin: 0rem;
-  }
-  main div .main__titulo .main__h1 {
-    margin: 0rem 3rem 2rem 0rem;
-    font-size: 3rem;
-  }
-  main div div .col-3 {
-    width: 100%;
-    margin-bottom: 2rem;
-  }
-  main div div .col-8 {
-    width: 100%;
-  }
-  main div div .col-8 .main__divP--estilo {
-    font-size: 1.3rem;
-  }
-  main div div div .main__divIFrame--estilo {
-    width: 100%;
-    margin: 0rem;
-  }
-}
 /* Cuenta */
 * {
   margin: 0;
@@ -759,6 +547,219 @@ main .mainCuenta__section--estilos form div .inputcuentaclase {
   color: black;
   padding: 0.5rem;
   margin: 0rem 3rem 1rem 0rem;
+}
+
+/* headerResponsive */
+@media only screen and (max-width: 480px) {
+  .header {
+    display: inline-block;
+    width: 100%;
+  }
+  .header .header__p--estilo {
+    font-size: 4rem;
+    padding-left: 30px;
+  }
+  .header .header__nav {
+    display: flex;
+    justify-content: center;
+    margin-right: 5rem;
+  }
+  .header .header__nav .header__navUl {
+    display: inline-block;
+  }
+  .header .header__nav .header__navUl .header__navUlLi {
+    border-bottom: solid white;
+    margin-right: 5rem;
+  }
+}
+/* footerResponsive */
+@media only screen and (max-width: 480px) {
+  .footer {
+    display: inline-block;
+    width: 100%;
+  }
+  .footer .footer__div--flex {
+    display: inline-block;
+    width: 100%;
+  }
+  .footer .footer__div--flex div {
+    justify-content: center;
+    margin-left: 0.6rem;
+  }
+  .footer .footer__div--flex div ul {
+    display: flex;
+    justify-content: center;
+  }
+  .footer .footer__div--flex div ul li {
+    margin: 0rem;
+  }
+  .footer .footer__div--flex div ul li .iconoResponsive {
+    display: none;
+  }
+  .footer .footer__nav {
+    display: flex;
+    justify-content: center;
+  }
+  .footer .footer__nav .footer__navUl {
+    display: inline-block;
+    justify-content: center;
+    margin-right: 7rem;
+  }
+  .footer .footer__nav .footer__navUl .footer__navUlLi {
+    border-bottom: solid white;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .linea {
+    margin: 0rem 0rem 2rem 8.4rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .main .carrusel--estilo {
+    width: 100%;
+    height: 100%;
+    margin: 1rem 0rem;
+  }
+  .main .main__aside--position {
+    display: none;
+  }
+  .main .main__titulo {
+    width: 100%;
+  }
+  .main div h2 section .main__bienvenida {
+    width: 100%;
+    font-size: 1.5rem;
+    margin: 0rem;
+  }
+  .main div .lineaResponsive {
+    display: none;
+  }
+  .main div .linea {
+    margin: 0rem;
+    width: 100%;
+  }
+  .main .container div {
+    display: inline-block;
+    width: 100%;
+  }
+  .main .container div div .container__p--estiloImpar {
+    font-size: 1.5rem;
+    margin: 1rem 0rem 0rem 0rem;
+    padding-left: 1rem;
+  }
+  .main .container div .container__div--estilo .container__imgImpar--estilo {
+    width: 100%;
+    margin: 2rem 1rem 1rem 1rem;
+  }
+  .main .container div .container__div--estilo .container__imgPar--estilo {
+    width: 100%;
+    margin: 1rem 0rem 0rem 1rem;
+  }
+  .main .container div div .container__p--estiloPar {
+    font-size: 1.5rem;
+    margin: 2rem 0rem 1rem 0rem;
+  }
+  .main .container div .container__div--estilo .container__imgBanquete--estilo {
+    width: 100%;
+    height: 100%;
+  }
+  .main .container div .container__p--estiloLargo {
+    font-size: 1.5rem;
+    margin: 1rem;
+  }
+  .main .container div div .container__p--estiloFinal {
+    margin: 1rem;
+  }
+  .main .container div .container__div--estilo .container__imgFamilia--estilo {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .main .mainNovedades__div--estilo .main__bienvenida {
+    font-size: 1.5rem;
+    margin: 0rem;
+    width: 100%;
+  }
+  .main .divResponsive {
+    width: 100%;
+    display: none;
+    /*boton*/
+  }
+  .main .lineaNovedades {
+    width: 100%;
+    margin: 0rem;
+  }
+  .main .mainNovedades__section ul {
+    padding: 0rem;
+  }
+  .main .mainNovedades__section ul .mainNovedades__carrusel--estilo {
+    width: 100%;
+    margin: 0rem;
+  }
+  .main .mainNovedades__section ul .mainNovedades__carrusel--estilo div {
+    display: inline-block;
+  }
+  .main .mainNovedades__section ul .mainNovedades__carrusel--estilo div .col-4 {
+    width: 100%;
+  }
+  .main .mainNovedades__section ul .mainNovedades__carrusel--estilo div .col-4 .mainNovedades__divCard--estilos {
+    width: 100%;
+    height: 100%;
+    margin: 1rem 0rem 1rem 4rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .main .mainCategorias__div--estilo {
+    width: 100%;
+  }
+  .main .mainCategorias__div--estilo .mainCategorias__bienvenida {
+    width: 100%;
+    margin: 0rem;
+  }
+  .main .divResponsive {
+    display: none;
+  }
+  .main div ul {
+    padding: 0rem;
+  }
+  .main div ul li div .mainCategorias__divBoton--estilo {
+    width: 100%;
+    margin: 0rem;
+  }
+  .main .mainCategorias__divCard--margen {
+    width: 100%;
+  }
+  .main .mainCategorias__divCard--margen div .col-4 {
+    width: 100%;
+    margin: 0rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  main .main__aside--display {
+    display: none;
+  }
+  main div .main__titulo {
+    margin: 0rem;
+  }
+  main div .main__titulo .main__h1 {
+    margin: 0rem 3rem 2rem 0rem;
+    font-size: 3rem;
+  }
+  main div div .col-3 {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  main div div .col-8 {
+    width: 100%;
+  }
+  main div div .col-8 .main__divP--estilo {
+    font-size: 1.3rem;
+  }
+  main div div div .main__divIFrame--estilo {
+    width: 100%;
+    margin: 0rem;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */
