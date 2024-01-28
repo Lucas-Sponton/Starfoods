@@ -48,64 +48,59 @@
         }
     }
 
-    .mainNovedades__section {
-        ul {
-            li {
-                list-style: map-get($listasLinks, liEstilo);
+    section {
 
-                .main__botonNovedades--estilo {
-                    background-color: map-get($colores, morado);
-                    border-color: black;
-                    border-radius: 3rem;
-                    width: 83%;
-                    padding: 1rem;
-                    margin: 2rem 0rem 3rem 1rem;
+        .main__botonNovedades--estilo {
+            background-color: map-get($colores, morado);
+            border-color: black;
+            border-radius: 3rem;
+            width: 83%;
+            padding: 1rem;
+            margin: 2rem 0rem 3rem 1rem;
 
-                    .main__botonA--estilo {
-                        text-decoration: map-get($listasLinks, decoracion);
-                        font-size: $tamañoFuente;
-                        color: map-get($colores, rosado);
-                    }
-
-                    .main__flecha--estilo {
-                        border: solid;
-                        border-radius: 20px;
-                        margin-left: 2rem;
-                    }
-                }
+            .main__botonA--estilo {
+                text-decoration: map-get($listasLinks, decoracion);
+                font-size: $tamañoFuente;
+                color: map-get($colores, rosado);
             }
 
-            .mainNovedades__carrusel--estilo {
-                width: 1000px;
-                margin: 1rem 1rem 1rem 3rem;
+            .main__flecha--estilo {
+                border: solid;
+                border-radius: 20px;
+                margin-left: 2rem;
+            }
+        }
 
-                .mainNovedades__carrusel--estiloBordes {
-                    border-radius: 100px;
-                }
+        .mainNovedades__carrusel--estilo {
+            width: 1000px;
+            margin: 1rem 1rem 1rem 3rem;
 
+            .mainNovedades__carrusel--estiloBordes {
+                border-radius: 100px;
+            }
+
+            div {
                 div {
-                    div {
-                        .mainNovedades__divCard--estilos {
-                            margin: 1.5rem 0rem 1rem 0rem;
-                            border-radius: 20px;
-                            background-color: #231123;
+                    .mainNovedades__divCard--estilos {
+                        margin: 1.5rem 0rem 1rem 0rem;
+                        border-radius: 20px;
+                        background-color: #231123;
 
-                            .mainNovedades__divCardImg--estilos {
-                                border-radius: 20px;
-                                height: 200px;
+                        .mainNovedades__divCardImg--estilos {
+                            border-radius: 20px;
+                            height: 200px;
+                        }
+
+                        .mainNovedades__divCardTexto--estilos {
+                            color: white;
+
+                            .mainNovedades__divCardH2--estilos {
+                                display: map-get($flexbox, display);
+                                justify-content: map-get($flexbox, justify);
                             }
 
-                            .mainNovedades__divCardTexto--estilos {
-                                color: white;
-
-                                .mainNovedades__divCardH2--estilos {
-                                    display: map-get($flexbox, display);
-                                    justify-content: map-get($flexbox, justify);
-                                }
-
-                                .mainNovedades__cardP--estilos {
-                                    margin-left: 1.5rem;
-                                }
+                            .mainNovedades__cardP--estilos {
+                                margin-left: 1.5rem;
                             }
                         }
                     }
