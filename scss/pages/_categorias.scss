@@ -3,6 +3,7 @@
 .main {
     .mainCategorias__div--estilo {
         margin-bottom: 5rem;
+
         .mainCategorias__bienvenida {
             color: map-get($colores, morado);
             font-size: $tamañoFuente+1;
@@ -24,14 +25,17 @@
                 display: map-get($flexbox, display);
                 justify-content: space-evenly;
                 margin-bottom: 0rem;
+
                 li {
                     list-style: map-get($listasLinks, liEstilo);
+
                     .mainCategorias__botonA--estilo {
                         text-decoration: none;
                         font-size: $tamañoFuente;
                         color: map-get($colores, rosado);
                     }
                 }
+
                 .mainCategorias__botonP--estilo {
                     color: map-get($colores, rosado);
                     font-size: $tamañoFuente;
@@ -39,55 +43,55 @@
             }
         }
     }
-    div {
-        ul {
-            li {
-                list-style: map-get($listasLinks, liEstilo);
-                div {
-                    .mainCategorias__divBoton--estilo {
-                        background-color: map-get($colores, morado);
-                        border-color: black;
-                        border-radius: 3rem;
-                        width: 70%;
-                        padding: 1rem;
-                        margin: 2rem 0rem 3rem 6.1rem;
-                        .mainCategorias__divBotonA--estilo {
-                            text-decoration: map-get($listasLinks, decoracion);
-                            font-size: $tamañoFuente;
-                            color: white;
-                        }
-                        .mainCategorias__flecha--estilo {
-                            border: solid;
-                            border-radius: 20px;
-                            margin-left: 2rem;
-                        }
-                    }
-                }
+
+    section {
+
+
+        .mainCategorias__divBoton--estilo {
+            background-color: map-get($colores, morado);
+            border-color: black;
+            border-radius: 3rem;
+            width: 70%;
+            padding: 1rem;
+            margin: 2rem 0rem 3rem 6.9rem;
+
+            .mainCategorias__divBotonA--estilo {
+                text-decoration: map-get($listasLinks, decoracion);
+                font-size: $tamañoFuente;
+                color: white;
+            }
+
+            .mainCategorias__flecha--estilo {
+                border: solid;
+                border-radius: 20px;
+                margin-left: 2rem;
             }
         }
-    }
-    .mainCategorias__divCard--margen {
-        width: 1000px;
-        margin: 1rem 1rem 1rem 3rem;
-        div {
-            div {
-                .mainCategorias__divCard--estilos {
-                    margin: 1.5rem 0rem 1rem 2rem;
+
+        .mainCategorias__divCard--margen {
+            width: 1000px;
+            margin: 1rem 1rem 1rem 3rem;
+
+            .mainCategorias__divCard--estilos {
+                margin: 1.5rem 0rem 1rem 2rem;
+                border-radius: 20px;
+                background-color: #231123;
+
+                .mainCategorias__divCardImg--estilos {
                     border-radius: 20px;
-                    background-color: #231123;
-                    .mainCategorias__divCardImg--estilos {
-                        border-radius: 20px;
-                        height: 200px;
+                    height: 200px;
+                }
+
+                .mainCategorias__divCardTexto--estilos {
+                    color: white;
+
+                    .mainCategorias__divCardH2--estilos {
+                        display: map-get($flexbox, display);
+                        justify-content: map-get($flexbox, justify);
                     }
-                    .mainCategorias__divCardTexto--estilos {
-                        color: white;
-                        .mainCategorias__divCardH2--estilos {
-                            display: map-get($flexbox, display);
-                            justify-content: map-get($flexbox, justify);
-                        }
-                        .mainCategorias__cardP--estilos {
-                            margin-left: 1.5rem;
-                        }
+
+                    .mainCategorias__cardP--estilos {
+                        margin-left: 1.5rem;
                     }
                 }
             }

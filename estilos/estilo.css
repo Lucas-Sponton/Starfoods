@@ -279,9 +279,9 @@
   background-color: #231123;
   border-color: black;
   border-radius: 3rem;
-  width: 83%;
+  width: 77%;
   padding: 1rem;
-  margin: 2rem 0rem 3rem 1rem;
+  margin: 2rem 0rem 3rem 4rem;
 }
 .main section .main__botonNovedades--estilo .main__botonA--estilo {
   text-decoration: none;
@@ -295,33 +295,40 @@
 }
 .main section .mainNovedades__carrusel--estilo {
   width: 1000px;
-  margin: 1rem 1rem 1rem 3rem;
+  margin: 1rem 1rem 1rem 4rem;
+}
+.main section .mainNovedades__carrusel--estilo .mainNovedades__botonCarrusel--margin {
+  margin: 0rem 0rem 1rem 0rem;
 }
 .main section .mainNovedades__carrusel--estilo .mainNovedades__carrusel--estiloBordes {
   border-radius: 100px;
 }
-.main section .mainNovedades__carrusel--estilo div div .mainNovedades__divCard--estilos {
+.main section .mainNovedades__divCard--width {
+  width: 1000px;
+  margin: 1rem 1rem 1rem 4.7rem;
+}
+.main section .mainNovedades__divCard--width .mainNovedades__divCard--estilos {
   margin: 1.5rem 0rem 1rem 0rem;
   border-radius: 20px;
   background-color: #231123;
 }
-.main section .mainNovedades__carrusel--estilo div div .mainNovedades__divCard--estilos .mainNovedades__divCardImg--estilos {
+.main section .mainNovedades__divCard--width .mainNovedades__divCard--estilos .mainNovedades__divCardImg--estilos {
   border-radius: 20px;
   height: 200px;
 }
-.main section .mainNovedades__carrusel--estilo div div .mainNovedades__divCard--estilos .mainNovedades__divCardTexto--estilos {
+.main section .mainNovedades__divCard--width .mainNovedades__divCard--estilos .mainNovedades__divCardTexto--estilos {
   color: white;
 }
-.main section .mainNovedades__carrusel--estilo div div .mainNovedades__divCard--estilos .mainNovedades__divCardTexto--estilos .mainNovedades__divCardH2--estilos {
+.main section .mainNovedades__divCard--width .mainNovedades__divCard--estilos .mainNovedades__divCardTexto--estilos .mainNovedades__divCardH2--estilos {
   display: flex;
   justify-content: center;
 }
-.main section .mainNovedades__carrusel--estilo div div .mainNovedades__divCard--estilos .mainNovedades__divCardTexto--estilos .mainNovedades__cardP--estilos {
+.main section .mainNovedades__divCard--width .mainNovedades__divCard--estilos .mainNovedades__divCardTexto--estilos .mainNovedades__cardP--estilos {
   margin-left: 1.5rem;
 }
 .main .lineaNovedades {
   border: double 5px rgba(35, 17, 35, 0.8117647059);
-  margin: 0rem 14rem 3rem 5rem;
+  margin: 0rem 15.5rem 3rem 5rem;
 }
 
 /* categorias */
@@ -359,48 +366,45 @@
   color: #ffcab1;
   font-size: 1.5rem;
 }
-.main div ul li {
-  list-style: none;
-}
-.main div ul li div .mainCategorias__divBoton--estilo {
+.main section .mainCategorias__divBoton--estilo {
   background-color: #231123;
   border-color: black;
   border-radius: 3rem;
   width: 70%;
   padding: 1rem;
-  margin: 2rem 0rem 3rem 6.1rem;
+  margin: 2rem 0rem 3rem 6.9rem;
 }
-.main div ul li div .mainCategorias__divBoton--estilo .mainCategorias__divBotonA--estilo {
+.main section .mainCategorias__divBoton--estilo .mainCategorias__divBotonA--estilo {
   text-decoration: none;
   font-size: 1.5rem;
   color: white;
 }
-.main div ul li div .mainCategorias__divBoton--estilo .mainCategorias__flecha--estilo {
+.main section .mainCategorias__divBoton--estilo .mainCategorias__flecha--estilo {
   border: solid;
   border-radius: 20px;
   margin-left: 2rem;
 }
-.main .mainCategorias__divCard--margen {
+.main section .mainCategorias__divCard--margen {
   width: 1000px;
   margin: 1rem 1rem 1rem 3rem;
 }
-.main .mainCategorias__divCard--margen div div .mainCategorias__divCard--estilos {
+.main section .mainCategorias__divCard--margen .mainCategorias__divCard--estilos {
   margin: 1.5rem 0rem 1rem 2rem;
   border-radius: 20px;
   background-color: #231123;
 }
-.main .mainCategorias__divCard--margen div div .mainCategorias__divCard--estilos .mainCategorias__divCardImg--estilos {
+.main section .mainCategorias__divCard--margen .mainCategorias__divCard--estilos .mainCategorias__divCardImg--estilos {
   border-radius: 20px;
   height: 200px;
 }
-.main .mainCategorias__divCard--margen div div .mainCategorias__divCard--estilos .mainCategorias__divCardTexto--estilos {
+.main section .mainCategorias__divCard--margen .mainCategorias__divCard--estilos .mainCategorias__divCardTexto--estilos {
   color: white;
 }
-.main .mainCategorias__divCard--margen div div .mainCategorias__divCard--estilos .mainCategorias__divCardTexto--estilos .mainCategorias__divCardH2--estilos {
+.main section .mainCategorias__divCard--margen .mainCategorias__divCard--estilos .mainCategorias__divCardTexto--estilos .mainCategorias__divCardH2--estilos {
   display: flex;
   justify-content: center;
 }
-.main .mainCategorias__divCard--margen div div .mainCategorias__divCard--estilos .mainCategorias__divCardTexto--estilos .mainCategorias__cardP--estilos {
+.main section .mainCategorias__divCard--margen .mainCategorias__divCard--estilos .mainCategorias__divCardTexto--estilos .mainCategorias__cardP--estilos {
   margin-left: 1.5rem;
 }
 
@@ -417,88 +421,88 @@ main .main__aside--position .main__aside--display .main__asideImg--estilo {
   width: 200px;
   height: 300px;
 }
-main div .main__titulo {
+main .main__titulo {
   align-items: center;
   text-align: center;
   margin: 1rem 5rem 4rem 0rem;
 }
-main div .main__titulo .main__h1 {
+main .main__titulo .main__h1 {
   font-size: 3.5rem;
   color: #231123;
 }
-main div div .main__divContacto--estilo {
+main section .main__divContacto--estilo {
   background-color: rgba(35, 17, 35, 0.368627451);
   border: double 5px rgba(35, 17, 35, 0.8784313725);
   border-radius: 5px 5px 10px 10px;
 }
-main div div .main__divContacto--estilo .main__divH2--estilo {
+main section .main__divContacto--estilo .main__divH2--estilo {
   display: flex;
   color: #231123;
   justify-content: center;
   margin-top: 1rem;
 }
-main div div .main__divContacto--estilo ul .main__divUlLi--estilo {
+main section .main__divContacto--estilo ul .main__divUlLi--estilo {
   display: flex;
   justify-content: center;
 }
-main div div .main__divContacto--estilo ul .main__divUlLi--estilo .main__divIcono--estilo, main div div .main__divContacto--estilo ul .main__divUlLi--estilo .main__divIconoTiktok--estilo {
+main section .main__divContacto--estilo ul .main__divUlLi--estilo .main__divIcono--estilo, main section .main__divContacto--estilo ul .main__divUlLi--estilo .main__divIconoTiktok--estilo {
   font-size: 1.5rem;
   margin: 1.5rem;
 }
-main div div .main__divContacto--estilo ul .main__divUlLi--estilo .main__divUlLiA--estilo {
+main section .main__divContacto--estilo ul .main__divUlLi--estilo .main__divUlLiA--estilo {
   margin: 1.5rem 7rem 1rem 0rem;
   color: #231123;
   list-style: none;
   font-weight: 500;
 }
-main div div .main__divContacto--estilo ul .main__divUlLi--estilo .main__divIconoTiktok--estilo {
+main section .main__divContacto--estilo ul .main__divUlLi--estilo .main__divIconoTiktok--estilo {
   margin: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
-main div div .main__divContacto--estilo ul .main__divUlLi--estilo .main__divUlLiATiktok--estilo {
+main section .main__divContacto--estilo ul .main__divUlLi--estilo .main__divUlLiATiktok--estilo {
   margin: 1.5rem 8.5rem 1rem 0rem;
   color: #231123;
   list-style: none;
   font-weight: 500;
 }
-main div div div .main__divP--estilo {
+main section div .main__divP--estilo {
   font-size: 1.33rem;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   color: #231123;
   margin-right: 2rem;
 }
-main div .main__titulo {
+main section .main__titulo {
   align-items: center;
   text-align: center;
   margin: 1rem 5rem 4rem 0rem;
 }
-main div .main__titulo .main__h1 {
+main section .main__titulo .main__h1 {
   font-size: 3.5rem;
   color: #231123;
 }
-main div div div .main__divIFrame--estilo {
+main section .main__divIFrame--estilo {
   width: 250px;
   height: 310px;
   margin: 1.5rem 1rem 1rem 2.5rem;
   border-radius: 25px;
 }
-main div div div .main__divCard--estilo {
+main section .main__divCard--estilo {
   margin: 1.5rem 0rem 1rem 1rem;
   border-radius: 20px;
   background-color: #231123;
 }
-main div div div .main__divCard--estilo .main__divCardImg--estilo {
+main section .main__divCard--estilo .main__divCardImg--estilo {
   width: 191px;
   height: 123px;
   border-radius: 20px;
 }
-main div div div .main__divCard--estilo div .main__divCardTitulo {
+main section .main__divCard--estilo div .main__divCardTitulo {
   display: flex;
   justify-content: center;
   color: white;
   font-size: 1.3rem;
 }
-main div div div .main__divCard--estilo div .card-text {
+main section .main__divCard--estilo div .card-text {
   color: white;
 }
 
@@ -538,7 +542,7 @@ main .mainCuenta__section--estilos .mainCuenta__sectionDivContenedor--estilos h1
 main .mainCuenta__section--estilos .mainCuenta__sectionDivContenedor--estilos .mainCuenta__sectionFormGénero--estilos {
   margin: 1rem 0rem;
 }
-main .mainCuenta__section--estilos form div .inputcuentaclase {
+main .mainCuenta__section--estilos form div .mainCuenta__inputBorrarEnviar--estilo {
   background-color: white;
   border-radius: 7px;
   color: black;
@@ -623,53 +627,59 @@ main .mainCuenta__section--estilos form div .inputcuentaclase {
   .main .main__titulo {
     width: 100%;
   }
-  .main div h2 section .main__bienvenida {
+  .main h2 .main__bienvenida {
     width: 100%;
     font-size: 1.5rem;
+    margin: 0rem 0rem 3rem 0rem;
+  }
+  .main div {
     margin: 0rem;
   }
-  .main div .lineaResponsive {
+  .main div .lineaResponsive--display {
     display: none;
   }
   .main div .linea {
-    margin: 0rem;
     width: 100%;
   }
-  .main .container div {
+  .main .container section {
+    width: 100%;
     display: inline-block;
+  }
+  .main .container section div {
     width: 100%;
   }
-  .main .container div div .container__p--estiloImpar {
+  .main .container section div .container__p--estiloImpar {
     font-size: 1.5rem;
-    margin: 1rem 0rem 0rem 0rem;
-    padding-left: 1rem;
+    margin: 2rem 0rem 2rem 0rem;
   }
-  .main .container div .container__div--estilo .container__imgImpar--estilo {
-    width: 100%;
-    margin: 2rem 1rem 1rem 1rem;
-  }
-  .main .container div .container__div--estilo .container__imgPar--estilo {
-    width: 100%;
-    margin: 1rem 0rem 0rem 1rem;
-  }
-  .main .container div div .container__p--estiloPar {
+  .main .container section div .container__p--estiloPar {
     font-size: 1.5rem;
+    margin: 2rem 0rem 2rem 0rem;
+  }
+  .main .container section div .container__p--estiloFinal {
+    margin: 2rem 0rem 2rem 0rem;
+  }
+  .main .container section .container__div--estilo .container__imgImpar--estilo {
+    width: 100%;
+    margin: 1rem 0rem 2rem 0rem;
+  }
+  .main .container section .container__div--estilo .container__imgPar--estilo {
+    width: 100%;
+    margin: 2rem 0rem 0rem 0rem;
+  }
+  .main .container section .container__div--estilo .container__imgBanquete--estilo {
+    width: 100%;
+    height: 100%;
     margin: 2rem 0rem 1rem 0rem;
   }
-  .main .container div .container__div--estilo .container__imgBanquete--estilo {
+  .main .container section .container__div--estilo .container__imgFamilia--estilo {
     width: 100%;
     height: 100%;
+    margin: 1rem 0rem 1rem 0rem;
   }
-  .main .container div .container__p--estiloLargo {
+  .main .container section .container__p--estiloLargo {
     font-size: 1.5rem;
-    margin: 1rem;
-  }
-  .main .container div div .container__p--estiloFinal {
-    margin: 1rem;
-  }
-  .main .container div .container__div--estilo .container__imgFamilia--estilo {
-    width: 100%;
-    height: 100%;
+    margin: 2rem 0rem 2rem 0rem;
   }
 }
 @media only screen and (max-width: 480px) {

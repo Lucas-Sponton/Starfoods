@@ -15,93 +15,66 @@
             width: 100%;
         }
 
-        div {
-            h2 {
-                section {
-                    .main__bienvenida {
-                        width: 100%;
-                        font-size: 1.5rem;
-                        margin: 0rem;
-                    }
-                }
+        h2 {
+            .main__bienvenida {
+                width: 100%;
+                font-size: 1.5rem;
+                margin: 0rem 0rem 3rem 0rem;
             }
         }
 
         div {
-            .lineaResponsive {
+            margin: 0rem;
+            .lineaResponsive--display {
                 display: none;
             }
-
             .linea {
-                margin: 0rem;
                 width: 100%;
-
             }
         }
 
         .container {
-            div {
-                display: inline-block;
+            section {
                 width: 100%;
-
+                display: inline-block;
                 div {
+                    width: 100%;
                     .container__p--estiloImpar {
                         font-size: 1.5rem;
-                        margin: 1rem 0rem 0rem 0rem;
-                        padding-left: 1rem;
+                        margin: 2rem 0rem 2rem 0rem;
                     }
-                }
+                    .container__p--estiloPar {
+                        font-size: 1.5rem;
+                        margin: 2rem 0rem 2rem 0rem;
+                    }
+                    .container__p--estiloFinal {
+                        margin: 2rem 0rem 2rem 0rem;
+                    }
 
+                }
                 .container__div--estilo {
                     .container__imgImpar--estilo {
                         width: 100%;
-                        margin: 2rem 1rem 1rem 1rem;
+                        margin: 1rem 0rem 2rem 0rem;
                     }
-                }
-            }
-
-            div {
-                .container__div--estilo {
                     .container__imgPar--estilo {
                         width: 100%;
-                        margin: 1rem 0rem 0rem 1rem;
+                        margin: 2rem 0rem 0rem 0rem;
                     }
-                }
-
-                div {
-                    .container__p--estiloPar {
-                        font-size: 1.5rem;
-                        margin: 2rem 0rem 1rem 0rem;
-                    }
-                }
-            }
-
-            div {
-                .container__div--estilo {
                     .container__imgBanquete--estilo {
                         width: 100%;
                         height: 100%;
+                        margin: 2rem 0rem 1rem 0rem;
                     }
-                }
-
-                .container__p--estiloLargo {
-                    font-size: 1.5rem;
-                    margin: 1rem;
-                }
-            }
-
-            div {
-                div {
-                    .container__p--estiloFinal {
-                        margin: 1rem;
-                    }
-                }
-
-                .container__div--estilo {
                     .container__imgFamilia--estilo {
                         width: 100%;
                         height: 100%;
+                        margin: 1rem 0rem 1rem 0rem;
                     }
+                }
+                .container__p--estiloLargo {
+                    font-size: 1.5rem;
+                    margin: 2rem 0rem 2rem 0rem;
                 }
             }
         }

@@ -54,9 +54,9 @@
             background-color: map-get($colores, morado);
             border-color: black;
             border-radius: 3rem;
-            width: 83%;
+            width: 77%;
             padding: 1rem;
-            margin: 2rem 0rem 3rem 1rem;
+            margin: 2rem 0rem 3rem 4rem;
 
             .main__botonA--estilo {
                 text-decoration: map-get($listasLinks, decoracion);
@@ -73,36 +73,40 @@
 
         .mainNovedades__carrusel--estilo {
             width: 1000px;
-            margin: 1rem 1rem 1rem 3rem;
+            margin: 1rem 1rem 1rem 4rem;
+            .mainNovedades__botonCarrusel--margin {
+                margin: 0rem 0rem 1rem 0rem;
+            }
 
             .mainNovedades__carrusel--estiloBordes {
                 border-radius: 100px;
             }
+        }
 
-            div {
-                div {
-                    .mainNovedades__divCard--estilos {
-                        margin: 1.5rem 0rem 1rem 0rem;
-                        border-radius: 20px;
-                        background-color: #231123;
+        .mainNovedades__divCard--width {
+            width: 1000px;
+            margin: 1rem 1rem 1rem 4.7rem;
 
-                        .mainNovedades__divCardImg--estilos {
-                            border-radius: 20px;
-                            height: 200px;
-                        }
+            .mainNovedades__divCard--estilos {
+                margin: 1.5rem 0rem 1rem 0rem;
+                border-radius: 20px;
+                background-color: #231123;
 
-                        .mainNovedades__divCardTexto--estilos {
-                            color: white;
+                .mainNovedades__divCardImg--estilos {
+                    border-radius: 20px;
+                    height: 200px;
+                }
 
-                            .mainNovedades__divCardH2--estilos {
-                                display: map-get($flexbox, display);
-                                justify-content: map-get($flexbox, justify);
-                            }
+                .mainNovedades__divCardTexto--estilos {
+                    color: white;
 
-                            .mainNovedades__cardP--estilos {
-                                margin-left: 1.5rem;
-                            }
-                        }
+                    .mainNovedades__divCardH2--estilos {
+                        display: map-get($flexbox, display);
+                        justify-content: map-get($flexbox, justify);
+                    }
+
+                    .mainNovedades__cardP--estilos {
+                        margin-left: 1.5rem;
                     }
                 }
             }
@@ -111,6 +115,6 @@
 
     .lineaNovedades {
         border: double 5px #231123cf;
-        margin: 0rem 14rem 3rem 5rem;
+        margin: 0rem 15.5rem 3rem 5rem;
     }
 }
