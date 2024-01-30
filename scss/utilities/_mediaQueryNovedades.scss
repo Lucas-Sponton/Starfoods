@@ -12,7 +12,6 @@
         }
 
         .divResponsive {
-            width: 100%;
             display: none;
             /*boton*/
         }
@@ -22,30 +21,24 @@
             margin: 0rem;
         }
 
-        .mainNovedades__section {
-            ul {
-                padding: 0rem;
+        section {
+            width: 80%;
+            .main__botonNovedades--estilo {
+                width: 100%;
+                margin: 2rem 0rem 2rem 3rem;
+            }
+            .mainNovedades__carrusel--estilo {
+                width: 470px;
+                margin: 0rem;
+            }
 
-                .mainNovedades__carrusel--estilo {
+            .mainNovedades__divCard--width {
+                width: 100%;
+                margin-left: 5rem;
+                div {
                     width: 100%;
-                    margin: 0rem;
-
-                    div {
-                        display: inline-block;
-
-                        .col-4 {
-                            width: 100%;
-
-                            .mainNovedades__divCard--estilos {
-                                width: 100%;
-                                height: 100%;
-                                margin: 1rem 0rem 1rem 4rem;
-                            }
-                        }
-                    }
                 }
             }
         }
     }
-
 }
