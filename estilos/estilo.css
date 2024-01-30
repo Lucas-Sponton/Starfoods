@@ -763,8 +763,8 @@ main .mainCuenta__section--estilos form div .mainCuenta__inputBorrarEnviar--esti
     width: 100%;
     margin: 0rem;
   }
-  main section .col-2 {
-    margin-left: 6rem;
+  main section .main__divCard--estilo {
+    margin: 1rem 0rem 1rem 7.5rem;
   }
 }
 
