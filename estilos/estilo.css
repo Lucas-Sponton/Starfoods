@@ -742,26 +742,32 @@ main .mainCuenta__section--estilos form div .mainCuenta__inputBorrarEnviar--esti
   main .main__aside--display {
     display: none;
   }
-  main div .main__titulo {
-    margin: 0rem;
+  main .main__titulo {
+    margin: 0rem 0rem 0rem 3rem;
   }
-  main div .main__titulo .main__h1 {
+  main .main__titulo .main__h1 {
     margin: 0rem 3rem 2rem 0rem;
     font-size: 3rem;
   }
-  main div div .col-3 {
+  main section .col-3 {
     width: 100%;
     margin-bottom: 2rem;
   }
-  main div div .col-8 {
+  main section .col-8 {
     width: 100%;
   }
-  main div div .col-8 .main__divP--estilo {
+  main section .col-8 .main__divP--estilo {
     font-size: 1.3rem;
   }
-  main div div div .main__divIFrame--estilo {
+  main section .main__divIFrame--estilo {
     width: 100%;
     margin: 0rem;
+  }
+  main section .col-2 {
+    margin-left: 6rem;
+  }
+  main section .main__titulo {
+    margin: 0rem 0rem 0rem 3rem;
   }
 }
 
