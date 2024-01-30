@@ -704,8 +704,8 @@ main .mainCuenta__section--estilos form div .mainCuenta__inputBorrarEnviar--esti
     margin: 2rem 0rem 2rem 3rem;
   }
   .main section .mainNovedades__carrusel--estilo {
-    width: 470px;
-    margin: 0rem;
+    width: 100%;
+    margin: 0rem 0rem 0rem 3rem;
   }
   .main section .mainNovedades__divCard--width {
     width: 100%;
