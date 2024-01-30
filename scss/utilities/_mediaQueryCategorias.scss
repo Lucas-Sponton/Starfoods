@@ -16,31 +16,21 @@
             display: none;
         }
 
-        div {
-            ul {
-                padding: 0rem;
-
-                li {
-                    div {
-                        .mainCategorias__divBoton--estilo {
-                            width: 100%;
-                            margin: 0rem;
-                        }
+        section {
+            .mainCategorias__divBoton--estilo {
+                width: 100%;
+                margin: 0rem 0rem 0rem 3rem;
+            }
+            .mainCategorias__divCard--margen {
+                width: 100%;
+    
+                div {
+                    .col-4 {
+                        width: 100%;
+                        margin: 0rem;
                     }
                 }
             }
         }
-
-        .mainCategorias__divCard--margen {
-            width: 100%;
-
-            div {
-                .col-4 {
-                    width: 100%;
-                    margin: 0rem;
-                }
-            }
-        }
     }
-
 }

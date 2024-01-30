@@ -709,7 +709,7 @@ main .mainCuenta__section--estilos form div .mainCuenta__inputBorrarEnviar--esti
   }
   .main section .mainNovedades__divCard--width {
     width: 100%;
-    margin-left: 3rem;
+    margin-left: 2.5rem;
   }
   .main section .mainNovedades__divCard--width div {
     width: 100%;
@@ -726,17 +726,14 @@ main .mainCuenta__section--estilos form div .mainCuenta__inputBorrarEnviar--esti
   .main .divResponsive {
     display: none;
   }
-  .main div ul {
-    padding: 0rem;
-  }
-  .main div ul li div .mainCategorias__divBoton--estilo {
+  .main section .mainCategorias__divBoton--estilo {
     width: 100%;
-    margin: 0rem;
+    margin: 0rem 0rem 0rem 3rem;
   }
-  .main .mainCategorias__divCard--margen {
+  .main section .mainCategorias__divCard--margen {
     width: 100%;
   }
-  .main .mainCategorias__divCard--margen div .col-4 {
+  .main section .mainCategorias__divCard--margen div .col-4 {
     width: 100%;
     margin: 0rem;
   }
