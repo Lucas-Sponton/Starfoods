@@ -1,4 +1,63 @@
 @charset "UTF-8";
+.main .mainNovedades__divBoton--estilo ul li .mainNovedades__boton--estilo .mainNovedades__botonA--estilo:hover {
+  font-size: 1.7rem;
+  color: white;
+}
+.main section button .main__botonA--estilo:hover {
+  font-size: 1.7rem;
+  color: white;
+}
+.main section .mainNovedades__divCard--estilos::after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: " ";
+  background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+  width: 100%;
+  height: 102%;
+  filter: blur(10px);
+  z-index: -1;
+}
+
+.main div button ul li .mainCategorias__botonA--estilo:hover {
+  font-size: 1.7rem;
+  color: white;
+}
+.main section button .mainCategorias__divBotonA--estilo:hover {
+  font-size: 1.7rem;
+  color: white;
+}
+.main section div .mainCategorias__divCard--estilos::after {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  content: " ";
+  background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+  width: 100%;
+  height: 102%;
+  filter: blur(10px);
+  z-index: -1;
+}
+
+main section div ul .mainSobreNosotros__divUlLi--estilo .mainSobreNosotros__divUlLiA--estilo:hover {
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 1rem;
+  margin-right: 4.6rem;
+}
+main section div ul .mainSobreNosotros__divUlLi--estilo .mainSobreNosotros__divUlLiATiktok--estilo:hover {
+  font-size: 1.5rem;
+  color: white;
+  margin-top: 1rem;
+  margin-right: 7rem;
+}
+main section div ul .mainSobreNosotros__divUlLi--estilo .mainSobreNosotros__divUlLiAInstagram--hoverMargin:hover {
+  margin-right: 4.7rem;
+}
+main section div ul .mainSobreNosotros__divUlLi--estilo .mainSobreNosotros__divUlLiAFacebook--hoverMargin:hover {
+  margin-right: 4.8rem;
+}
+
 /* generales */
 * {
   margin: 0;
@@ -17,6 +76,7 @@
 
 .row_margin {
   margin: 0rem;
+  padding: 0rem;
 }
 
 /* header */
@@ -47,6 +107,10 @@
   color: #ffcab1;
   text-decoration: none;
 }
+.header .header__nav .header__navUl .header__navUlLi .header__navUlLiA:hover {
+  color: white;
+  font-size: 22px;
+}
 
 /* footer */
 .footer {
@@ -71,6 +135,10 @@
   color: #ffcab1;
   align-items: center;
 }
+.footer .footer__div--flex div ul .footer__divRedes--estilo .footer__divRedesA--estilo:hover {
+  color: white;
+  font-size: 18px;
+}
 .footer .footer__div--flex div ul .footer__divRedes--estilo .footer__icono--tamaño {
   font-size: 1.5rem;
   margin-right: 2rem;
@@ -90,12 +158,19 @@
   color: #ffcab1;
   text-decoration: none;
 }
+.footer .footer__nav .footer__navUl .footer__navUlLi .footer__navUlLiA:hover {
+  color: white;
+  font-size: 22px;
+}
 
 /* index */
+.main .row {
+  --bs-gutter-x: 0rem;
+}
 .main .carrusel--estilo {
-  width: 1000px;
+  width: 78%;
   height: 675px;
-  margin: 1rem 1rem 1rem 5rem;
+  margin: 1rem 1rem 1rem 4rem;
 }
 .main .carrusel--estilo .carrusel--estiloBordes {
   border-radius: 5rem;
@@ -306,6 +381,7 @@
 .main section .mainNovedades__divCard--width {
   width: 1000px;
   margin: 1rem 1rem 1rem 4.7rem;
+  position: relative;
 }
 .main section .mainNovedades__divCard--width .mainNovedades__divCard--estilos {
   margin: 1.5rem 0rem 1rem 0rem;
@@ -377,7 +453,7 @@
 .main section .mainCategorias__divBoton--estilo .mainCategorias__divBotonA--estilo {
   text-decoration: none;
   font-size: 1.5rem;
-  color: white;
+  color: #FFCAB1;
 }
 .main section .mainCategorias__divBoton--estilo .mainCategorias__flecha--estilo {
   border: solid;
@@ -430,35 +506,35 @@ main .main__titulo .main__h1 {
   font-size: 3.5rem;
   color: #231123;
 }
-main section .main__divContacto--estilo {
+main section .mainSobreNosotros__divContacto--estilo {
   background-color: rgba(35, 17, 35, 0.368627451);
   border: double 5px rgba(35, 17, 35, 0.8784313725);
   border-radius: 5px 5px 10px 10px;
 }
-main section .main__divContacto--estilo .main__divH2--estilo {
+main section .mainSobreNosotros__divContacto--estilo .mainSobreNosotros__divH2--estilo {
   display: flex;
   color: #231123;
   justify-content: center;
   margin-top: 1rem;
 }
-main section .main__divContacto--estilo ul .main__divUlLi--estilo {
+main section .mainSobreNosotros__divContacto--estilo ul .mainSobreNosotros__divUlLi--estilo {
   display: flex;
   justify-content: center;
 }
-main section .main__divContacto--estilo ul .main__divUlLi--estilo .main__divIcono--estilo, main section .main__divContacto--estilo ul .main__divUlLi--estilo .main__divIconoTiktok--estilo {
+main section .mainSobreNosotros__divContacto--estilo ul .mainSobreNosotros__divUlLi--estilo .mainSobreNosotros__divIcono--estilo, main section .mainSobreNosotros__divContacto--estilo ul .mainSobreNosotros__divUlLi--estilo .mainSobreNosotros__divIconoTiktok--estilo {
   font-size: 1.5rem;
   margin: 1.5rem;
 }
-main section .main__divContacto--estilo ul .main__divUlLi--estilo .main__divUlLiA--estilo {
+main section .mainSobreNosotros__divContacto--estilo ul .mainSobreNosotros__divUlLi--estilo .mainSobreNosotros__divUlLiA--estilo {
   margin: 1.5rem 7rem 1rem 0rem;
   color: #231123;
   list-style: none;
   font-weight: 500;
 }
-main section .main__divContacto--estilo ul .main__divUlLi--estilo .main__divIconoTiktok--estilo {
+main section .mainSobreNosotros__divContacto--estilo ul .mainSobreNosotros__divUlLi--estilo .mainSobreNosotros__divIconoTiktok--estilo {
   margin: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
-main section .main__divContacto--estilo ul .main__divUlLi--estilo .main__divUlLiATiktok--estilo {
+main section .mainSobreNosotros__divContacto--estilo ul .mainSobreNosotros__divUlLi--estilo .mainSobreNosotros__divUlLiATiktok--estilo {
   margin: 1.5rem 8.5rem 1rem 0rem;
   color: #231123;
   list-style: none;

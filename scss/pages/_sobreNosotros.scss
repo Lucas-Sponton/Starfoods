@@ -28,12 +28,12 @@ main {
     }
 
     section {
-        .main__divContacto--estilo {
+        .mainSobreNosotros__divContacto--estilo {
             background-color: #2311235e;
             border: double 5px #231123e0;
             border-radius: 5px 5px 10px 10px;
 
-            .main__divH2--estilo {
+            .mainSobreNosotros__divH2--estilo {
                 display: map-get($flexbox, display);
                 color: map-get($colores, morado);
                 justify-content: map-get($flexbox, justify);
@@ -41,28 +41,28 @@ main {
             }
 
             ul {
-                .main__divUlLi--estilo {
+                .mainSobreNosotros__divUlLi--estilo {
                     display: map-get($flexbox, display);
                     justify-content: map-get($flexbox, justify);
 
-                    .main__divIcono--estilo {
+                    .mainSobreNosotros__divIcono--estilo {
                         font-size: 1.5rem;
                         margin: 1.5rem;
                     }
 
-                    .main__divUlLiA--estilo {
+                    .mainSobreNosotros__divUlLiA--estilo {
                         margin: 1.5rem 7rem 1rem 0rem;
                         color: map-get($colores, morado);
                         list-style: map-get($listasLinks, liEstilo);
                         font-weight: 500;
                     }
 
-                    .main__divIconoTiktok--estilo {
-                        @extend .main__divIcono--estilo;
+                    .mainSobreNosotros__divIconoTiktok--estilo {
+                        @extend .mainSobreNosotros__divIcono--estilo;
                         margin: 1.5rem 1.5rem 1.5rem 1.5rem;
                     }
 
-                    .main__divUlLiATiktok--estilo {
+                    .mainSobreNosotros__divUlLiATiktok--estilo {
                         margin: 1.5rem 8.5rem 1rem 0rem;
                         color: map-get($colores, morado);
                         list-style: map-get($listasLinks, liEstilo);

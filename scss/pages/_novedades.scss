@@ -86,6 +86,7 @@
         .mainNovedades__divCard--width {
             width: 1000px;
             margin: 1rem 1rem 1rem 4.7rem;
+            position: relative;
 
             .mainNovedades__divCard--estilos {
                 margin: 1.5rem 0rem 1rem 0rem;
@@ -112,6 +113,8 @@
             }
         }
     }
+    
+    
 
     .lineaNovedades {
         border: double 5px #231123cf;

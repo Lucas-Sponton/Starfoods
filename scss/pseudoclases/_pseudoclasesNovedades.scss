@@ -1,0 +1,35 @@
+.main {
+    .mainNovedades__divBoton--estilo {
+        ul {
+            li {
+                .mainNovedades__boton--estilo {
+                    .mainNovedades__botonA--estilo:hover {
+                        font-size: 1.7rem;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+
+    section {
+        button {
+            .main__botonA--estilo:hover {
+                font-size: 1.7rem;
+                color: white;
+            }
+        }
+
+        .mainNovedades__divCard--estilos::after {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            content: " ";
+            background: linear-gradient(to right, #03001e, #7303c0, #ec38bc, #fdeff9);
+            width: 100%;
+            height: 102%;
+            filter: blur(10px);
+            z-index: -1;
+        }
+    }
+}

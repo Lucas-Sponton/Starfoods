@@ -1,0 +1,31 @@
+
+
+
+main {
+    section {
+        div {
+            ul {
+                .mainSobreNosotros__divUlLi--estilo {
+                    .mainSobreNosotros__divUlLiA--estilo:hover {
+                        font-size: 1.5rem;
+                        color: white;
+                        margin-top: 1rem;
+                        margin-right: 4.6rem;
+                    }
+                    .mainSobreNosotros__divUlLiATiktok--estilo:hover {
+                        font-size: 1.5rem;
+                        color: white;
+                        margin-top: 1rem;
+                        margin-right: 7rem;
+                    }
+                    .mainSobreNosotros__divUlLiAInstagram--hoverMargin:hover {
+                        margin-right: 4.7rem;
+                    }
+                    .mainSobreNosotros__divUlLiAFacebook--hoverMargin:hover {
+                        margin-right: 4.8rem;
+                    }
+                }
+            }
+        }
+    }
+}

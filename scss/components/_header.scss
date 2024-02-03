@@ -29,7 +29,13 @@
                     color: map-get($colores, rosado);
                     text-decoration: map-get($listasLinks, decoracion);
                 }
+                .header__navUlLiA:hover {
+                    color: white;
+                    font-size: 22px;
+                }
             }
         }
+        
     }
+    
 }

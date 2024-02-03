@@ -1,58 +1,66 @@
 /* footer */
 
-    .footer {
-        background-color: map-get($colores, morado);
-        padding: 1rem 0.4rem 0rem 0rem;
+.footer {
+    background-color: map-get($colores, morado);
+    padding: 1rem 0.4rem 0rem 0rem;
+    display: map-get($flexbox, display);
+    justify-content: flex-end;
+
+    .footer__div--flex {
         display: map-get($flexbox, display);
-        justify-content: flex-end;
 
-        .footer__div--flex {
-            display: map-get($flexbox, display);
-            div {
-                ul {
-                    .footer__divRedes--estilo {
-                        list-style: map-get($listasLinks, liEstilo);
-                        font-size: 16px;
-                        font-family: $tipografiaPrincipal;
-                        font-weight: 600;
-                        font-style: oblique;
-                        margin: 0.8rem 8rem 0rem 0rem;
-                        align-items: map-get($flexbox, align);
-
-                        .footer__divRedesA--estilo {
-                            color: map-get($colores, rosado);
-                            align-items: map-get($flexbox, align);
-                        }
-
-                        .footer__icono--tamaño {
-                            font-size: 1.5rem;
-                            margin-right: 2rem;
-                        }
-                    }
-                }
-            }
-        }
-
-        .footer__nav {
-            .footer__navUl {
-                display: map-get($flexbox, display);
-
-                .footer__navUlLi {
+        div {
+            ul {
+                .footer__divRedes--estilo {
                     list-style: map-get($listasLinks, liEstilo);
-                    font-size: 18px;
+                    font-size: 16px;
                     font-family: $tipografiaPrincipal;
                     font-weight: 600;
                     font-style: oblique;
-                    margin: 1.5rem;
+                    margin: 0.8rem 8rem 0rem 0rem;
+                    align-items: map-get($flexbox, align);
 
-                    .footer__navUlLiA {
+                    .footer__divRedesA--estilo {
                         color: map-get($colores, rosado);
-                        text-decoration: map-get($listasLinks, decoracion);
+                        align-items: map-get($flexbox, align);
+                    }
+
+                    .footer__divRedesA--estilo:hover {
+                        color: white;
+                        font-size: 18px;
+                    }
+
+                    .footer__icono--tamaño {
+                        font-size: 1.5rem;
+                        margin-right: 2rem;
                     }
                 }
             }
         }
     }
 
+    .footer__nav {
+        .footer__navUl {
+            display: map-get($flexbox, display);
 
+            .footer__navUlLi {
+                list-style: map-get($listasLinks, liEstilo);
+                font-size: 18px;
+                font-family: $tipografiaPrincipal;
+                font-weight: 600;
+                font-style: oblique;
+                margin: 1.5rem;
 
+                .footer__navUlLiA {
+                    color: map-get($colores, rosado);
+                    text-decoration: map-get($listasLinks, decoracion);
+                }
+
+                .footer__navUlLiA:hover {
+                    color: white;
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+}

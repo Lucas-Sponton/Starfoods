@@ -4,6 +4,10 @@
 @import "./utilities/mixins";
 
 
+@import "./pseudoclases/pseudoclasesNovedades";
+@import "./pseudoclases/pseudoclasesCategorias";
+@import "./pseudoclases/pseudoclasesSobreNosotros";
+
 @import "./base/generales";
 @import "./components/header";
 @import "./components/footer";
