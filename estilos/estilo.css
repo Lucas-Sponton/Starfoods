@@ -636,6 +636,30 @@ main .mainCuenta__section--estilos form div .mainCuenta__inputBorrarEnviar--esti
   padding: 0.5rem;
   margin: 0rem 3rem 1rem 0rem;
 }
+main .animacion__estilo-1 {
+  animation-delay: 3s;
+  animation-duration: 3s;
+}
+main .animacion__estilo-2 {
+  animation-delay: 3.5s;
+  animation-duration: 3s;
+}
+main .animacion__estilo-3 {
+  animation-delay: 4s;
+  animation-duration: 3s;
+}
+main .animacion__estilo-4 {
+  animation-delay: 4.5s;
+  animation-duration: 3s;
+}
+main .animacion__estilo-5 {
+  animation-delay: 5s;
+  animation-duration: 3s;
+}
+main .animacion__estilo-6 {
+  animation-delay: 6s;
+  animation-duration: 2.7s;
+}
 
 /* headerResponsive */
 @media only screen and (max-width: 480px) {
