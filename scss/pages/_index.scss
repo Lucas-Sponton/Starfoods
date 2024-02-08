@@ -32,9 +32,11 @@
             position: fixed;
             top: 540px;
             left: 18px;
+            
 
             .main__asideIcono--estilo {
                 font-size: $tamañoFuente;
+                animation: zumbido 1s infinite ease;
             }
         }
 
@@ -45,6 +47,7 @@
 
             .main__asideIcono--estilo {
                 font-size: $tamañoFuente;
+                animation: latido 2s infinite ease;
             }
         }
     }
